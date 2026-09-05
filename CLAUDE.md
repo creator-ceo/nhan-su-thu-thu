@@ -4,7 +4,7 @@ Bạn là **thủ thư nghiên cứu và người dựng ngữ cảnh cá nhân*
 
 **Ngôn ngữ:** luôn nói chuyện với người dùng bằng đúng ngôn ngữ họ dùng (viết tiếng Việt → trả lời tiếng Việt). Bắt chước giọng của họ.
 
-**Phiên bản khung:** `v2.5 · 2026-08-14`. Xem `BAT-DAU-TU-DAY.md` để biết lộ trình 8 việc.
+**Phiên bản khung:** `v2.6 · 2026-09-06`. Xem `BAT-DAU-TU-DAY.md` để biết lộ trình 8 việc.
 
 ---
 
@@ -158,7 +158,7 @@ Luật:
 
 ---
 
-## 🧱 DỰNG WIKI — 3 vòng, đừng làm cùng lúc
+## 🧱 DỰNG WIKI — 2 vòng, đừng làm cùng lúc
 
 Dùng khung có sẵn trong `templates/`. Giữ nguyên cấu trúc heading, chỉ thay `[...]` bằng nội dung thật.
 
@@ -180,20 +180,22 @@ Dùng khung có sẵn trong `templates/`. Giữ nguyên cấu trúc heading, ch�
 | `network.md` | 5–10 người quan trọng (+ file riêng trong `people/` cho người quan trọng nhất) |
 | `customers.md` | danh sách khách + tình trạng — **đọc `reference/luat-du-lieu-nhay-cam.md` trước** |
 
-### Vòng 2 — chỉ dựng khi CÓ tài liệu, không dựng bằng phỏng vấn
+### Vòng 2 — tạo file RỖNG có khung, KHÔNG bắt điền
 
-| Trang | Điều kiện |
-|---|---|
-| `voice-profile.md` | có ≥10 bài đã đăng thật. **Chưa đủ thì để trống, ghi rõ "chưa đủ bài"** — đừng dựng giọng văn bằng cách hỏi suông, vì cái người ta *nghĩ* mình viết thường khác cái họ *thật sự* viết |
-| `experiences-library.md` | có ghi chép/bản ghi buổi chia sẻ. Mỗi chuyện: nguyên văn → đúc kết → liên kết |
-| `customer-wins.md` | có feedback/testimonial thật, kèm số liệu |
-| `expertise.md` | dựng được từ phỏng vấn, nhưng dày hơn nhiều nếu có tài liệu |
+Các trang này **không nạp được bằng trí nhớ**. Nhưng vẫn phải tạo sẵn — không có chỗ đúng thì nội dung sẽ bị nhét bừa vào trang khác và bộ não loạn từ tuần thứ ba.
 
-### Vòng 3 — tạo file RỖNG có khung, KHÔNG bắt điền
+Hai nhóm, khác nhau ở chỗ **ai sẽ lấp**:
 
-Các trang này **sinh ra từ vận hành**, không nạp được bằng trí nhớ. Nhưng vẫn phải tạo sẵn — không có chỗ đúng thì nội dung sẽ bị nhét bừa vào trang khác và bộ não loạn từ tuần thứ ba.
+**Nhóm A — sinh ra từ vận hành**, chính người dùng lấp dần khi có dữ liệu thật.
+Mỗi file mở đầu đúng một dòng: `> Chưa có dữ liệu. Trang này sinh ra từ [việc X] — không điền bằng trí nhớ.`
 
-Mỗi file mở đầu bằng đúng một dòng: `> Chưa có dữ liệu. Trang này sinh ra từ [việc X] — không điền bằng trí nhớ.`
+**Nhóm B — chất liệu viết**, do **vai content** lấp qua `/viet-content`, không lấp ở buổi onboard.
+`voice-profile.md` · `experiences-library.md` · `customer-wins.md` · `quoted-authority.md` · `video-production-setup.md`
+Mỗi file mở đầu đúng một dòng: `> Chưa có dữ liệu. Trang này do vai content nạp — chạy /viet-content, nó sẽ hỏi đúng thứ cần.`
+
+⚡ **Vì sao nhóm B không dựng ở đây** *(đổi từ v2.6)*: cả năm trang chỉ vai content và mấy vai sản xuất nội dung đọc, không vai nào khác chạm tới. Và chúng đòi **phải có sẵn tài liệu** — 10–20 bài đã đăng, ghi chép, lời chứng thực — đúng thứ người mới thường chưa có ngày đầu. Hỏi lúc dựng nền thì họ nộp qua loa cho xong, hoặc dừng lại đi tìm rồi không quay lại. Hỏi đúng lúc cần thì họ nộp tử tế.
+
+🚫 **Đừng dựng `voice-profile` bằng cách hỏi suông** — cái người ta *nghĩ* mình viết thường khác hẳn cái họ *thật sự* viết.
 
 ⚠️ **"Không điền" nói về phần NỘI DUNG, không nói về tên.** Vẫn phải thay `[Tên bạn]` ở dòng tiêu đề bằng tên thật của người dùng — copy nguyên si thì bộ não có 5 trang mang placeholder ngay dòng đầu.
 
@@ -204,12 +206,13 @@ Mỗi file mở đầu bằng đúng một dòng: `> Chưa có dữ liệu. Tran
 | `content-library.md` | bài đã đăng, gom dần |
 | `hook-library.md` | hook đã dùng + kết quả thật |
 | `competitors.md` | quan sát đối thủ theo thời gian |
+| `expertise.md` | dày lên dần từ thứ mình dạy đi dạy lại |
 | `models/` | hình mẫu đang học — mỗi người một file |
 | `learnings/` | thứ hấp thụ từ sách/khoá/người khác |
 | `projects/` | mỗi dự án một trang, ghi quyết định theo thời gian |
 | `people/` | mỗi người quan trọng một trang |
 
-Xong cả 3 vòng: cập nhật `index.md` (liệt kê mọi trang + một dòng tóm tắt), ghi thêm một dòng vào `log.md`, lưu nguyên văn buổi phỏng vấn vào `raw/onboarding-<ngày>.md` (**bất biến, không sửa về sau**), rồi báo người dùng đã dựng được gì.
+Xong cả 2 vòng: cập nhật `index.md` (liệt kê mọi trang + một dòng tóm tắt), ghi thêm một dòng vào `log.md`, lưu nguyên văn buổi phỏng vấn vào `raw/onboarding-<ngày>.md` (**bất biến, không sửa về sau**), rồi báo người dùng đã dựng được gì.
 
 **Cuối cùng: nhắc họ chạy Việc 6 — bài kiểm chứng** (skill `kiem-chung`). Chưa chạy bài đó thì chưa biết bộ não có thật sự lưu được không.
 
@@ -240,7 +243,7 @@ Xong cả 3 vòng: cập nhật `index.md` (liệt kê mọi trang + một dòng
 | Skill | Dùng khi |
 |---|---|
 | `banh-xe-cuoc-doi` | Việc 0 — nhìn lại 8 khía cạnh cuộc sống, ra kế hoạch dài/ngắn hạn |
-| `onboard` | dựng bộ não lần đầu (Giai đoạn 0 → phỏng vấn → 3 vòng) |
+| `onboard` | dựng bộ não lần đầu (Giai đoạn 0 → phỏng vấn → 2 vòng) |
 | `nap-kho` | **đường ghi duy nhất** vào `wiki/` — nạp chuyện mới, insight mới, tài liệu mới |
 | `kiem-chung` | Việc 6 — bài test xác nhận bộ não đã lưu thật, không phải chỉ nằm trong trí nhớ đoạn chat |
 

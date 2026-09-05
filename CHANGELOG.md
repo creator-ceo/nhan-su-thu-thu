@@ -4,6 +4,26 @@ Bộ khung này còn tiến hoá. Trang này ghi cái gì đổi và **vì sao**
 
 ---
 
+## v2.6 — 2026-09-06
+
+**Onboard nhẹ đi một vòng, và chất liệu viết chuyển sang vai content.**
+
+- **Bỏ Vòng 2 của `/onboard`.** Ba trang nặng nhất của vòng đó — `voice-profile`, `experiences-library`, `customer-wins` — nay do **vai content** nạp qua `/viet-content`, không dựng lúc onboard nữa. `expertise` xuống vòng file-rỗng-có-khung. Wiki giờ dựng theo **2 vòng**, không phải 3.
+
+  Vì sao: soi lại từng skill xem nó đọc trang nào thì thấy ba trang đó **chỉ vai content và mấy vai sản xuất nội dung đọc**, không vai nào khác chạm tới. Và Vòng 2 đúng là vòng **đòi phải có sẵn tài liệu** — mười tới hai mươi bài đã đăng, ghi chép, lời chứng thực — tức đúng thứ người mới hoàn toàn chưa có ngày đầu. Xin ở buổi dựng nền thì hoặc họ nộp qua loa cho xong, hoặc họ dừng lại đi tìm rồi không quay lại.
+
+- **`/onboard` vẫn TẠO cả năm trang chất liệu viết, nhưng để rỗng** kèm một dòng chỉ đường sang `/viet-content`. Lý do giữ nguyên như cũ: không có chỗ đúng thì nội dung bị nhét bừa vào trang khác và bộ não loạn từ tuần thứ ba. Cái đổi là **ai đi lấp**, không phải chỗ để lấp.
+
+- **Thêm ⛩ CỬA VÀO cho `/viet-content`** — chạy trước mọi bước khác, mỗi lượt. Đọc thử bốn file nền rồi rẽ ba nhánh: kho trống thì **không viết**, chỉ đưa đúng một việc tiếp theo · kho mỏng thì viết nhưng **nói trước cái gì sẽ yếu** · kho đủ thì chạy im lặng như cũ.
+
+  Trước bản này skill chặn rất tốt việc *bịa* (Bước 3 và Bước 6), nhưng chỉ chặn ở **đầu ra**. Người mới đi trọn bảy bước để nhận một lời từ chối ở cuối và không hiểu vì sao. Đây đúng cái bẫy khoá "Nạp nguyên liệu" đã ghi: *"người vào tool khi kho còn rỗng sẽ điền qua loa rồi kết luận tool viết dở."*
+
+- **Nạp được ngay trong lượt viết đầu tiên.** Dán 5–10 bài cũ vào là skill rút hồ sơ giọng, dùng luôn cho bài đang viết, rồi mời `/nap-kho` lưu thật. Lần dùng đầu đổi từ *bị từ chối* thành *có bài dùng được cộng một tài sản mới*. Luật cũ không đổi: skill **không tự ghi vào `wiki/`**.
+
+- **Hai trang `/viet-content` đọc mà `/onboard` chưa từng dựng** — `quoted-authority` và `video-production-setup` — nay có mặt trong danh sách tạo rỗng. Trước đó member chạy onboard xong dùng viet-content sẽ gặp hai file không tồn tại.
+
+---
+
 ## v2.5 — 2026-08-14
 
 - **Thêm mục hướng dẫn cho máy Windows.** Toàn bộ tài liệu trước đó viết theo góc nhìn Mac (*"mở Terminal"*), trong khi phần lớn member nhiều khả năng dùng Windows. Bốn chỗ hay vấp nay có sẵn cách chữa: lệnh `claude` báo *not recognized* (phải mở lại PowerShell, không phải cài hỏng) · chưa có Git · đường dẫn có dấu cách cần nháy kép · thư mục ẩn `.claude` không thấy trong File Explorer.

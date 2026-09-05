@@ -24,24 +24,29 @@ Trang ngắn nhưng mọi trang khác quy chiếu về. Chúng quyết định b
 
 ---
 
-## Vòng 2 — chỉ dựng khi CÓ tài liệu
+## Vòng 2 — tạo file rỗng có khung, KHÔNG điền *(thư mục `vong2/`)*
 
-| Trang | Điều kiện |
+Không trang nào ở vòng này nạp được bằng trí nhớ. Nhưng vẫn tạo sẵn hết — không có chỗ đúng thì nội dung sẽ bị nhét bừa vào trang khác, và bộ não loạn từ tuần thứ ba.
+
+Hai nhóm, khác nhau ở chỗ **ai sẽ lấp**:
+
+**Nhóm A — sinh ra từ vận hành.** Chính người dùng lấp dần khi có dữ liệu thật.
+
+`audience-insights` · `business-metrics` · `content-library` · `hook-library` · `competitors` · `expertise`
+
+**Nhóm B — chất liệu viết.** Do **vai content** lấp qua `/viet-content`, không lấp ở buổi onboard.
+
+| Trang | Cần gì mới lấp được |
 |---|---|
-| `voice-profile` | **≥10 bài đã đăng thật.** Chưa đủ → để trống, ghi rõ *"chưa đủ bài"* |
-| `experiences-library` | có ghi chép/bản ghi buổi chia sẻ, coaching |
-| `customer-wins` | có feedback/testimonial thật, kèm số liệu |
-| `expertise` | dựng được từ phỏng vấn, nhưng dày hơn nhiều nếu có tài liệu |
+| `voice-profile` | **≥10 bài đã đăng thật** |
+| `experiences-library` | ghi chép/bản ghi buổi chia sẻ, coaching |
+| `customer-wins` | feedback/testimonial thật, kèm số liệu |
+| `quoted-authority` | trích dẫn tác giả/nghiên cứu, có nguồn |
+| `video-production-setup` | có làm video mới cần |
+
+⚡ **Vì sao nhóm B rời khỏi onboard** *(đổi từ v2.6)*: cả năm trang chỉ vai content và mấy vai sản xuất nội dung đọc. Và chúng đòi phải có sẵn tài liệu — đúng thứ người mới thường chưa có ngày đầu. Hỏi lúc dựng nền thì họ nộp qua loa cho xong, hoặc dừng lại đi tìm rồi không quay lại.
 
 ⚠️ **Đừng dựng `voice-profile` bằng cách hỏi suông.** Cái người ta *nghĩ* mình viết thường khác hẳn cái họ *thật sự* viết — và không ai tự phát hiện ra sự lệch đó. Chưa đủ 10 bài thì để trống còn hơn dựng sai, vì trang này chi phối mọi thứ AI viết ra sau đó.
-
----
-
-## Vòng 3 — tạo file rỗng có khung, KHÔNG điền *(thư mục `vong3/`)*
-
-`audience-insights` · `business-metrics` · `content-library` · `hook-library` · `competitors`
-
-Các trang này **sinh ra từ vận hành**, không nạp được bằng trí nhớ. Nhưng vẫn tạo sẵn — không có chỗ đúng thì nội dung sẽ bị nhét bừa vào trang khác, và bộ não loạn từ tuần thứ ba.
 
 Mỗi file đã có sẵn dòng đầu ghi rõ nó sinh ra từ đâu. **Giữ nguyên dòng đó** cho tới khi có dữ liệu thật.
 

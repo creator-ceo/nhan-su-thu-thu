@@ -4,7 +4,7 @@
 
 Ném thư mục này vào một công cụ AI bậc 2, nhắn *"bắt đầu"*, trả lời phỏng vấn — bạn có một bộ não thứ 2 chạy được thật trong 5–10 tiếng.
 
-> **Phiên bản:** `v2.5` · 2026-08-14 — xem [CHANGELOG.md](CHANGELOG.md)
+> **Phiên bản:** `v2.6` · 2026-09-06 — xem [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -123,7 +123,7 @@ START-HERE.txt               hướng dẫn 1 phút
   kiem-chung/                Việc 6 — bài test bộ não đã lưu thật chưa
 
 templates/                   khung 11 trang neo + vòng 2
-  vong3/                     trang sinh ra từ vận hành (tạo rỗng, không điền)
+  vong2/                     trang tạo rỗng, không điền (vận hành + chất liệu viết)
   khung-lap-lai/             khung cho models · people · projects · learnings
 
 reference/

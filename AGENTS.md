@@ -8,7 +8,7 @@
 
 ## Việc đầu tiên
 
-Đọc `CLAUDE.md`. Nó chứa: kiến trúc LLM Wiki, cấu trúc thư mục phải tạo, Việc 0, Giai đoạn 0, bộ câu hỏi phỏng vấn, cách dựng wiki 3 vòng, và 7 Luật sắt.
+Đọc `CLAUDE.md`. Nó chứa: kiến trúc LLM Wiki, cấu trúc thư mục phải tạo, Việc 0, Giai đoạn 0, bộ câu hỏi phỏng vấn, cách dựng wiki 2 vòng, và 7 Luật sắt.
 
 Người dùng nhắn *"bắt đầu"* → làm theo mục **LẦN CHẠY ĐẦU** trong `CLAUDE.md`.
 

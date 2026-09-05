@@ -88,18 +88,14 @@ Tick khi trang tương ứng đã có nội dung thật, không còn `[ngoặc v
 - [ ] `network.md` — 5–10 người quan trọng
 - [ ] `customers.md` — danh sách khách + tình trạng *(đọc `reference/luat-du-lieu-nhay-cam.md` trước)*
 
-**Vòng 2 — chỉ khi có tài liệu** *(không có thì để trống, ghi rõ lý do)*
+**Vòng 2 — file rỗng có khung, KHÔNG điền lúc này**
 
-- [ ] `voice-profile.md` — cần ≥10 bài đã đăng thật
-- [ ] `experiences-library.md` — cần ghi chép/bản ghi buổi chia sẻ
-- [ ] `customer-wins.md` — cần feedback/testimonial thật
-- [ ] `expertise.md`
+- [ ] Đã tạo sẵn *(nhóm A, bạn lấp dần khi có số thật)*: `audience-insights` · `business-metrics` · `content-library` · `hook-library` · `competitors` · `expertise` · thư mục `models/` `learnings/` `projects/` `people/`
+- [ ] Đã tạo sẵn *(nhóm B, **vai content** lấp sau)*: `voice-profile` · `experiences-library` · `customer-wins` · `quoted-authority` · `video-production-setup`
 
-**Vòng 3 — file rỗng có khung, KHÔNG điền lúc này**
-
-- [ ] Đã tạo sẵn: `audience-insights` · `business-metrics` · `content-library` · `hook-library` · `competitors` · thư mục `models/` `learnings/` `projects/` `people/`
-
-> Vòng 3 sinh ra từ vận hành, không nạp bằng trí nhớ. Tạo sẵn chỗ để sau này có gì thì bỏ đúng chỗ.
+> Nhóm A sinh ra từ vận hành, không nạp bằng trí nhớ. Tạo sẵn chỗ để sau này có gì thì bỏ đúng chỗ.
+>
+> ⚡ **Nhóm B trống là ĐÚNG THIẾT KẾ, không phải làm dở** *(đổi từ v2.6)*. Đó là chất liệu để viết — giọng văn, kho chuyện, kết quả khách. Muốn lấp thì chạy `/viet-content`, nó tự kiểm kho và hỏi đúng thứ còn thiếu. Cần 5–10 bài bạn đã đăng thật để dựng được hồ sơ giọng.
 
 ---
 
