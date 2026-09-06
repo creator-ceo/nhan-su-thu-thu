@@ -123,6 +123,8 @@ START-HERE.txt               hướng dẫn 1 phút
   kiem-chung/                Việc 6 — bài test bộ não đã lưu thật chưa
 
 templates/                   khung 11 trang neo + vòng 2
+
+bo-kham/                    máy chạy buổi khám nút thắt (SINH RA, đừng sửa tay)
   vong2/                     trang tạo rỗng, không điền (vận hành + chất liệu viết)
   khung-lap-lai/             khung cho models · people · projects · learnings
 

@@ -4,6 +4,19 @@ Bộ khung này còn tiến hoá. Trang này ghi cái gì đổi và **vì sao**
 
 ---
 
+## v2.9 — 2026-09-06
+
+- **Thêm bộ khám nút thắt: `/kham-benh` + `/tong-giam-doc`.** Trước bản này bộ khung trả lời được *"tôi là ai, tôi bán gì"* nhưng không trả lời được *"tôi đang tắc ở đâu"* — mà đó là câu hỏi đầu tiên của bất kỳ ai mở bộ não ra vào sáng thứ Hai.
+  - `/kham-benh` đi qua các chặng của một buổi khám thật: tiếp nhận → hỏi bệnh → đếm số → đào sâu → kê đơn hai ngăn. Khoảng 22 ô cho lượt đầu. Chạy **3 tháng một lần**.
+  - `/tong-giam-doc` là vai điều phối: đọc bản khám gần nhất rồi chọn **một** quy trình cho tháng, giao, và nghiệm thu bằng hai con số. Nó **không tự khám** — gọi `/kham-benh`, vì hai bộ khám là hai kết quả khác nhau cho cùng một người và không có gì báo khi chúng lệch.
+- **Máy giữ chỗ, không phải AI giữ chỗ.** Bài khám hơn hai chục ô nên vị trí nằm trong file (`bo-kham/kham.mjs`), nhả ra đúng một ô mỗi lượt. AI không biết câu kế tiếp cho tới khi ghi xong câu đang hỏi — nên không đổ cả bài ra một lượt, không nhảy cóc, không tự chấm màu.
+- **Ba thứ máy làm mà hỏi miệng không làm được:** loại khâu *đói nguyên liệu* (khâu tắc mà khâu trên nó cũng tắc thì cái tắc đó là hệ quả, không phải bệnh) · bảng **LỆCH** đối chiếu điều bạn tự khai với con số bạn tự đếm · tách **chưa biết cách** khỏi **biết mà không làm**, vì hai thứ đó chữa ngược nhau.
+- **`bo-kham/` là thư mục SINH RA**, đừng sửa tay. Luật sống ở Creator OS; bản này được phát sang. Sửa tay là lần `git pull` sau mất hết.
+- **Thêm `nut-that` vào nhóm trang tạo rỗng** — đó là trang đích của `/kham-benh`, trước bản này bài khám ghi vào một trang `/onboard` chưa bao giờ dựng.
+- Chú thích cách gọi trong `kham.mjs` nay **trung tính, không ghi cứng thư mục**. Trước đó nó ghi `node owner-os/kham.mjs`, tức bản phát cho member bảo họ gõ một lệnh trỏ vào thư mục họ không có. Code vốn đã in ra đúng lệnh lúc chạy; chỉ phần chú thích để đọc là sai — nên người mở file ra tìm hiểu sẽ gõ nhầm, còn người chỉ chạy thì không.
+
+---
+
 ## v2.8 — 2026-09-06
 
 - **Thêm `positioning` vào nhóm trang tạo rỗng.** Đếm lại thì hai vai cần nó (Bán hàng và Content) mà `/onboard` chưa bao giờ dựng — cùng loại lỗ với `quoted-authority` sửa ở v2.6. Luật đã chốt: trang từ **hai vai trở lên** cần thì thuộc nền chung và onboard dựng; trang chỉ một vai cần thì vai đó tự nạp lúc cài.
