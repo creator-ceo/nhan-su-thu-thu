@@ -4,6 +4,12 @@ Bộ khung này còn tiến hoá. Trang này ghi cái gì đổi và **vì sao**
 
 ---
 
+## v2.8 — 2026-09-06
+
+- **Thêm `positioning` vào nhóm trang tạo rỗng.** Đếm lại thì hai vai cần nó (Bán hàng và Content) mà `/onboard` chưa bao giờ dựng — cùng loại lỗ với `quoted-authority` sửa ở v2.6. Luật đã chốt: trang từ **hai vai trở lên** cần thì thuộc nền chung và onboard dựng; trang chỉ một vai cần thì vai đó tự nạp lúc cài.
+
+---
+
 ## v2.7 — 2026-09-06
 
 - **Bốn skill và README nay ghi rõ ai làm bộ khung này, kèm đường nhắn khi kẹt** — `facebook.com/tohaidoan`. Bộ khung phát miễn phí và đi xa nhất trong mọi thứ đang có, nên người dùng vướng ở bước nào phải biết hỏi ai; trước bản này họ cài xong, hỏng, rồi bỏ, mà không có chỗ nào để hỏi.

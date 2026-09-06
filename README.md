@@ -4,7 +4,7 @@
 
 Ném thư mục này vào một công cụ AI bậc 2, nhắn *"bắt đầu"*, trả lời phỏng vấn — bạn có một bộ não thứ 2 chạy được thật trong 5–10 tiếng.
 
-> **Phiên bản:** `v2.7` · 2026-09-06 — xem [CHANGELOG.md](CHANGELOG.md)
+> **Phiên bản:** `v2.8` · 2026-09-06 — xem [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
