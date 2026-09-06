@@ -4,7 +4,7 @@
 
 Ném thư mục này vào một công cụ AI bậc 2, nhắn *"bắt đầu"*, trả lời phỏng vấn — bạn có một bộ não thứ 2 chạy được thật trong 5–10 tiếng.
 
-> **Phiên bản:** `v2.8` · 2026-09-06 — xem [CHANGELOG.md](CHANGELOG.md)
+> **Phiên bản:** `v2.9` · 2026-09-06 — xem [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -137,14 +137,18 @@ reference/
 
 ---
 
-## Bốn lệnh dùng hằng ngày
+## Sáu lệnh trong bộ khung
 
-| Lệnh | Làm gì |
-|---|---|
-| `/banh-xe-cuoc-doi` | Việc 0 — làm **trước tiên**, trước cả khi dựng bộ não |
-| `/nap-kho` | nạp chuyện mới, insight mới, tài liệu mới — **đường ghi duy nhất**, đừng sửa tay file `.md` |
-| `/kiem-chung` | Việc 6 — chạy sau khi dựng xong, và sau mỗi lần nạp khối lớn |
-| `/onboard` | dựng lại từ đầu nếu cần |
+| Lệnh | Làm gì | Bao lâu một lần |
+|---|---|---|
+| `/banh-xe-cuoc-doi` | Việc 0 — làm **trước tiên**, trước cả khi dựng bộ não | 3 tháng |
+| `/onboard` | dựng nền dữ liệu, hoặc dựng lại từ đầu nếu cần | một lần |
+| `/nap-kho` | nạp chuyện mới, insight mới, tài liệu mới — **đường ghi duy nhất**, đừng sửa tay file `.md` | mỗi lần có gì đáng nạp |
+| `/kiem-chung` | Việc 6 — chạy sau khi dựng xong, và sau mỗi lần nạp khối lớn | sau mỗi khối lớn |
+| `/kham-benh` | soi bạn đang tắc ở khâu nào — hỏi ~22 ô rồi kê đơn hai ngăn *(v2.9)* | 3 tháng |
+| `/tong-giam-doc` | vai điều phối: đọc bản khám gần nhất, chốt **một** việc cho tháng, nghiệm thu bằng hai con số *(v2.9)* | mỗi tháng |
+
+⚠️ `/tong-giam-doc` **không tự khám** — nó gọi `/kham-benh`. Hai bộ khám là hai kết quả khác nhau cho cùng một người, và không có gì báo khi chúng lệch.
 
 ---
 
@@ -208,4 +212,22 @@ Dùng thấy chỗ nào tắc, câu hỏi nào thừa, khung trang nào thiếu 
 
 **Kẹt ở bước nào, hoặc muốn được hướng dẫn** thì nhắn tôi: **[facebook.com/tohaidoan](https://www.facebook.com/tohaidoan/)**
 
-Bộ skill đầy đủ (viết content, làm ảnh, điều phối đội nhân sự A.I, bán hàng, chăm sóc) ở kho riêng: `creator-ceo/creator-skills`.
+---
+
+## Cài thêm vai nhân sự A.I
+
+Bộ khung này là **cái nền** — dữ liệu và sáu lệnh ở trên. Các vai làm việc (viết content, thiết kế, bán hàng, chăm sóc) nằm ở **kho riêng, cài rời**, vì phần lớn người ta chỉ cần một vai chứ không cần cả đội.
+
+Cài xong nền rồi thì thêm vai bằng hai lệnh:
+
+```bash
+claude plugin marketplace add creator-ceo/nhan-su-content
+claude plugin install content
+```
+
+| Vai | Kho | Trạng thái |
+|---|---|---|
+| ✍️ **Content** — viết bài, hook, ý tưởng, kịch bản video, mindmap | `creator-ceo/nhan-su-content` | ✅ cài được |
+| 🎛️ Điều phối · 🎨 Thiết kế · 💰 Bán hàng · 🤝 Chăm sóc · 🔍 Nghiên cứu | — | ⬜ đang đóng gói |
+
+⚠️ **Vai cần nền chạy trước.** Vai Content đọc `wiki/voice-profile.md`, `wiki/experiences-library.md`… — những trang do `/onboard` và `/nap-kho` dựng ra. Cài vai lên một thư mục trống thì nó chạy được nhưng viết bằng trí nhớ chung chung, không phải bằng chất liệu của bạn.
