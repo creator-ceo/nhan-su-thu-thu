@@ -4,6 +4,13 @@ Bộ khung này còn tiến hoá. Trang này ghi cái gì đổi và **vì sao**
 
 ---
 
+## v2.7 — 2026-09-06
+
+- **Bốn skill và README nay ghi rõ ai làm bộ khung này, kèm đường nhắn khi kẹt** — `facebook.com/tohaidoan`. Bộ khung phát miễn phí và đi xa nhất trong mọi thứ đang có, nên người dùng vướng ở bước nào phải biết hỏi ai; trước bản này họ cài xong, hỏng, rồi bỏ, mà không có chỗ nào để hỏi.
+- Nhân tiện nói rõ bộ skill đầy đủ nằm ở kho riêng `creator-ceo/creator-skills`, để ai muốn đi tiếp biết đường.
+
+---
+
 ## v2.6 — 2026-09-06
 
 **Onboard nhẹ đi một vòng, và chất liệu viết chuyển sang vai content.**

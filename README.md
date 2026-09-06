@@ -4,7 +4,7 @@
 
 Ném thư mục này vào một công cụ AI bậc 2, nhắn *"bắt đầu"*, trả lời phỏng vấn — bạn có một bộ não thứ 2 chạy được thật trong 5–10 tiếng.
 
-> **Phiên bản:** `v2.6` · 2026-09-06 — xem [CHANGELOG.md](CHANGELOG.md)
+> **Phiên bản:** `v2.7` · 2026-09-06 — xem [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -197,3 +197,13 @@ Thay khung bằng hai cách trên thì chắc chắn và kiểm được. AI ch�
 ## Đóng góp ngược
 
 Dùng thấy chỗ nào tắc, câu hỏi nào thừa, khung trang nào thiếu — báo lại trong nhóm. Bộ khung này lớn lên bằng đúng cách đó: người dùng thật gặp chỗ vướng thật.
+
+---
+
+## Ai làm bộ khung này
+
+**Tô Hải Đoàn** — người làm nội dung và xây thương hiệu cá nhân tại Việt Nam. Bộ khung này là cách tôi tổ chức bộ não thứ 2 của chính mình, đóng gói lại để bạn dựng bản của bạn.
+
+**Kẹt ở bước nào, hoặc muốn được hướng dẫn** thì nhắn tôi: **[facebook.com/tohaidoan](https://www.facebook.com/tohaidoan/)**
+
+Bộ skill đầy đủ (viết content, làm ảnh, điều phối đội nhân sự A.I, bán hàng, chăm sóc) ở kho riêng: `creator-ceo/creator-skills`.
