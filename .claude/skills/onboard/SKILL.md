@@ -15,14 +15,16 @@ Vì vậy: **không bỏ Giai đoạn 0.**
 
 ---
 
-## GIAI ĐOẠN −1 — Kiểm tra Việc 0
+## GIAI ĐOẠN −1 — Hỏi xem đã có bản kế hoạch nào chưa
 
-Hỏi: *"Bạn đã làm bài Bánh Xe Cuộc Đời và kế hoạch dài hạn – ngắn hạn chưa?"*
+Hỏi: *"Bạn đã từng ngồi làm kế hoạch dài hạn – ngắn hạn cho chính mình chưa? Bánh xe cuộc đời, OKR, kế hoạch 90 ngày — bất cứ dạng nào."*
 
-- Chưa → chạy skill `banh-xe-cuoc-doi` trước. Quay lại đây sau.
-- Rồi → xin bản đó, lưu vào `raw/`, dùng phần kế hoạch làm đầu vào cho `goals.md`.
+- **Rồi** → xin bản đó, lưu vào `raw/`, dùng thẳng làm đầu vào cho `goals.md`. Đây là đường tốt nhất: nó đã qua một lượt người ta tự nghĩ, không phải câu trả lời ứng khẩu giữa buổi phỏng vấn.
+- **Chưa** → **vẫn chạy tiếp, đừng chặn.** Hỏi bù ba câu ở phần Mục tiêu là đủ dựng `goals.md` bản đầu.
 
-Không bỏ qua bước này. Phỏng vấn kinh doanh nạp *dữ liệu việc*; Bánh Xe nạp *con người*.
+⚠️ **Nói thẳng cái giá của việc chưa có.** Phỏng vấn kinh doanh nạp *dữ liệu việc*: dự án, khách hàng, sản phẩm. Một bài kế hoạch tử tế nạp *con người* — họ đang ở đâu, muốn đi đâu. Thiếu nửa sau thì bộ não sẽ nạp rất nhanh và rất đúng một mục tiêu mà **chính chủ chưa tự kiểm lại** xem có thật là mục tiêu của mình không. Nói ra một lần, rồi đi tiếp — đừng bắt họ dừng lại đi làm kế hoạch trước.
+
+📌 Bài Bánh Xe Cuộc Đời có bộ hướng dẫn riêng, nằm ở **vai Điều phối** — chưa phát. Đừng hứa một lệnh chưa có.
 
 ---
 

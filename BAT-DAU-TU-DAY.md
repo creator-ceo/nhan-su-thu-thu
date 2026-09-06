@@ -1,4 +1,4 @@
-# BẮT ĐẦU TỪ ĐÂY — 8 việc, 5–10 tiếng
+# BẮT ĐẦU TỪ ĐÂY — 7 việc, 5–10 tiếng
 
 **Tên bạn:** ............................................ **Ngày bắt đầu:** ...... / ...... / ............
 
@@ -6,23 +6,7 @@
 >
 > ⏱ Tổng công sức phần cơ bản: **5–10 tiếng tập trung**, chia được ra nhiều buổi. Không phải làm một mạch.
 >
-> 🎯 Xong 8 việc = bạn có một bộ não thứ 2 **chạy được thật** và đã dùng nó làm xong một việc thật.
-
----
-
-## Việc 0 — Bánh Xe Cuộc Đời + kế hoạch dài hạn / ngắn hạn
-
-**Làm trước tiên, trước cả khi đụng vào bộ não thứ 2.**
-
-Mở công cụ AI, gõ: `/banh-xe-cuoc-doi` (hoặc nói *"làm bánh xe cuộc đời"*).
-
-- [ ] Đã định nghĩa **"10 điểm là gì"** cho từng khía cạnh — **trước** khi chấm điểm
-- [ ] Đã chấm điểm đủ 8 khía cạnh
-- [ ] Có kế hoạch dài hạn (1–3 năm) viết ra
-- [ ] Có kế hoạch ngắn hạn (90 ngày) viết ra
-- [ ] File `wiki/banh-xe-cuoc-doi.md` đã tồn tại
-
-> **Vì sao việc này đứng trước:** phần còn lại nạp *dữ liệu việc* — dự án, mục tiêu, khách hàng. Việc 0 nạp *con người*. Bỏ qua nó thì bộ não sẽ nạp rất nhanh và rất đúng một mục tiêu mà chính bạn chưa tự kiểm lại xem có thật là mục tiêu của mình không.
+> 🎯 Xong 7 việc = bạn có một bộ não thứ 2 **chạy được thật** và đã dùng nó làm xong một việc thật.
 
 ---
 
@@ -62,6 +46,7 @@ AI sẽ hỏi **từng câu một**. Trả lời thoải mái, sai cũng đượ
   - [ ] Ghi chép/bản ghi buổi chia sẻ, coaching — *để dựng kho câu chuyện*
   - [ ] Tài liệu sản phẩm/dịch vụ đã có
   - [ ] Feedback/testimonial khách cũ
+  - [ ] **Bản kế hoạch bạn từng làm cho chính mình** — bánh xe cuộc đời, OKR, kế hoạch 90 ngày, bất cứ dạng nào. *Để dựng `goals.md` từ thứ bạn đã nghĩ kỹ, thay vì từ câu trả lời ứng khẩu giữa buổi phỏng vấn*
   - *(Không có loại nào cũng không sao — sẽ bù bằng phỏng vấn)*
 - [ ] Đã trả lời hết phỏng vấn
 - [ ] ⚠️ **Đã ĐỌC LẠI những gì AI viết ra và sửa chỗ sai** — dùng AI hỗ trợ được, nhưng bắt buộc tự kiểm
@@ -117,7 +102,7 @@ Gõ: `/kiem-chung`. Hoặc tự làm theo `.claude/skills/kiem-chung/SKILL.md`.
 - [ ] Đã cắm bộ não vào
 - [ ] Đã hỏi đủ **5 câu kiểm chứng** và **tất cả đều trả lời đúng**
 
-> ⚠️ **Đây là việc quan trọng nhất trong cả 8 việc.** Nó bắt đúng cái bẫy phổ biến nhất: *tưởng đã lưu vào bộ não, thật ra chỉ nằm trong trí nhớ của đoạn chat — hết phiên là mất sạch.*
+> ⚠️ **Đây là việc quan trọng nhất trong cả 7 việc.** Nó bắt đúng cái bẫy phổ biến nhất: *tưởng đã lưu vào bộ não, thật ra chỉ nằm trong trí nhớ của đoạn chat — hết phiên là mất sạch.*
 >
 > Trả lời đúng = đã lưu thật. Trả lời sai = đang thiết kế sai, phải quay lại sửa chứ không đi tiếp.
 
@@ -138,7 +123,7 @@ Chọn **một** việc thật bạn đang cần làm (viết một bài, soạn
 
 ## ✅ Xong
 
-- [ ] Cả 8 việc đã tick
+- [ ] Cả 7 việc đã tick
 - [ ] `log.md` có ít nhất 2 dòng (một lúc dựng, một lúc update ngược)
 
 **Ngày hoàn thành:** ...... / ...... / ............

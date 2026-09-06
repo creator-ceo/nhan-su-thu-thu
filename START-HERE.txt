@@ -6,7 +6,7 @@ SECOND BRAIN — bắt đầu thế nào (2 bước, 1 phút)
    ⚠️ PHẢI mở công cụ NGAY TRONG folder này, không phải folder cha.
       Claude Code:  cd second-brain-file-ai  rồi mới gõ  claude
       Sai chỗ thì AI không nạp được luật, nhắn "bắt đầu" cũng không có gì xảy ra.
-      Kiểm nhanh: gõ  /  và tìm  /banh-xe-cuoc-doi  — thấy là đúng chỗ.
+      Kiểm nhanh: gõ  /  và tìm  /onboard  — thấy là đúng chỗ.
 
    (Chatbot thường như ChatGPT web KHÔNG dùng được — nó không ghi được
     file ra máy bạn, mà bộ não thứ 2 chính là các file trên máy bạn.
@@ -19,16 +19,15 @@ Trả lời thoải mái, sai cũng được — sửa sau.
 
 
 TOÀN BỘ LỘ TRÌNH: mở BAT-DAU-TU-DAY.md
-   8 việc, 5-10 tiếng, chia được ra nhiều buổi.
+   7 việc, 5-10 tiếng, chia được ra nhiều buổi.
    Tick từng ô khi xong — file đó vừa là bản đồ vừa là bằng chứng.
 
 
-VIỆC ĐẦU TIÊN (làm trước cả bước 1 ở trên nếu bạn muốn làm đúng thứ tự):
-   Bánh Xe Cuộc Đời + kế hoạch dài hạn / ngắn hạn.
-   Gõ: /banh-xe-cuoc-doi
-   Lý do: phần còn lại nạp dữ liệu VIỆC. Việc này nạp CON NGƯỜI.
-   Bỏ qua thì bộ não sẽ nạp rất nhanh một mục tiêu mà chính bạn
-   chưa tự kiểm lại xem có thật là mục tiêu của mình không.
+CÓ SẴN BẢN KẾ HOẠCH NÀO THÌ MANG THEO:
+   Bánh xe cuộc đời, OKR, kế hoạch 90 ngày — bất cứ dạng nào bạn
+   đã từng ngồi làm cho chính mình. Đưa cho AI ở Việc 3, nó dùng
+   thẳng làm goals.md thay vì hỏi lại giữa buổi phỏng vấn.
+   Chưa có cũng không sao, vẫn chạy được hết lộ trình.
 
 
 ĐỪNG BỎ VIỆC 6 — bài test kiểm chứng.
@@ -50,4 +49,4 @@ TRƯỚC KHI NẠP DỮ LIỆU KHÁCH HÀNG:
    Bộ não này sắp chứa tên khách thật, số tiền thật, chuyện của người khác.
 
 
-Phiên bản khung: v2.9 - 2026-09-06
+Phiên bản khung: v3.0 - 2026-09-07

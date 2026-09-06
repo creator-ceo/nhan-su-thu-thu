@@ -4,6 +4,29 @@ Bộ khung này còn tiến hoá. Trang này ghi cái gì đổi và **vì sao**
 
 ---
 
+## v3.0 — 2026-09-07
+
+⚠️ **Bản này GỠ BỎ ba lệnh.** Đọc trước khi `git pull`.
+
+- **Bộ khung thu về đúng ba lệnh: `/onboard` · `/nap-kho` · `/kiem-chung`** — dựng bộ não, ghi vào bộ não, kiểm bộ não. Đó là toàn bộ việc của cái nền.
+- **Gỡ `/banh-xe-cuoc-doi`, `/kham-benh`, `/tong-giam-doc`** (và thư mục `bo-kham/` đi kèm). Cả ba là **mục tiêu và lập kế hoạch**, không phải xây bộ não — chúng chuyển sang **vai Điều phối**, một plugin cài rời đang đóng gói.
+
+  Lý do là một câu hỏi rất cụ thể: *cái nền này để làm gì?* Nếu nó vừa dựng bộ não vừa chấm bánh xe vừa chốt việc của tháng thì ai chỉ cần chỗ chứa dữ liệu vẫn phải nuốt cả bộ hoạch định. Từ nay nền là nền, vai là vai — ghép lại được, mà không ghép cũng chạy.
+
+- **`/onboard` không còn chặn ở bánh xe.** Trước bản này nó hỏi *"đã làm bánh xe chưa"* rồi bảo đi làm trước, quay lại sau. Nay nó hỏi **"đã có sẵn bản kế hoạch nào chưa"** — bánh xe, OKR, kế hoạch 90 ngày, dạng nào cũng được:
+  - **Có** → nạp vào `raw/`, dùng thẳng làm `goals.md`. Vẫn là đường tốt nhất, vì bản đó đã qua một lượt người ta tự nghĩ chứ không phải câu trả lời ứng khẩu giữa buổi phỏng vấn.
+  - **Chưa** → **chạy tiếp, không chặn.** Nói ra một lần cái giá của việc thiếu nó rồi đi tiếp. Bắt người ta dừng lại đi làm kế hoạch trước khi được dựng bộ não chính là chỗ họ bỏ ngang.
+- **Lộ trình còn 7 việc** (`BAT-DAU-TU-DAY.md`), bỏ Việc 0. **Số hiệu Việc 1–7 giữ nguyên** — mọi tham chiếu chéo kiểu *"Việc 5 sẽ cần đường dẫn này"* và *"Việc 6 là nghiệm thu"* vẫn đúng. Đánh số lại cho đẹp là làm gãy hết chỗ trỏ chéo mà không đổi được gì.
+- **Bản kế hoạch có sẵn nay nằm trong danh sách Giai đoạn 0**, cạnh bài đã đăng và feedback khách — đúng chỗ của nó: một thứ tài liệu mang tới, không phải một việc phải làm trước.
+
+**Sửa kèm ba chỗ tự mâu thuẫn có từ v2.9:**
+
+- Cây thư mục trong `README.md` để `bo-kham/` chen vào giữa `templates/` và hai mục con của nó, nên `vong2/` và `khung-lap-lai/` đọc thành nằm trong `bo-kham/`. Nay đã về đúng chỗ.
+- Bảng skill trong `CLAUDE.md` chưa bao giờ kể `/kham-benh` và `/tong-giam-doc` — v2.9 thêm skill mà quên bảng. Gỡ đi thì bảng thành đúng.
+- `START-HERE.txt` vẫn ghi *"gõ `/` tìm `/banh-xe-cuoc-doi` — thấy là đúng chỗ"*, tức phép kiểm cài đặt trỏ vào một lệnh không còn. Nay kiểm bằng `/onboard`.
+
+---
+
 ## v2.9 — 2026-09-06
 
 - **Thêm bộ khám nút thắt: `/kham-benh` + `/tong-giam-doc`.** Trước bản này bộ khung trả lời được *"tôi là ai, tôi bán gì"* nhưng không trả lời được *"tôi đang tắc ở đâu"* — mà đó là câu hỏi đầu tiên của bất kỳ ai mở bộ não ra vào sáng thứ Hai.

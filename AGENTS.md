@@ -8,7 +8,7 @@
 
 ## Việc đầu tiên
 
-Đọc `CLAUDE.md`. Nó chứa: kiến trúc LLM Wiki, cấu trúc thư mục phải tạo, Việc 0, Giai đoạn 0, bộ câu hỏi phỏng vấn, cách dựng wiki 2 vòng, và 7 Luật sắt.
+Đọc `CLAUDE.md`. Nó chứa: kiến trúc LLM Wiki, cấu trúc thư mục phải tạo, Giai đoạn 0, bộ câu hỏi phỏng vấn, cách dựng wiki 2 vòng, và 7 Luật sắt.
 
 Người dùng nhắn *"bắt đầu"* → làm theo mục **LẦN CHẠY ĐẦU** trong `CLAUDE.md`.
 
@@ -20,7 +20,6 @@ Codex tìm skill ở `.codex/skills/`, còn bộ này để skill ở `.claude/s
 
 | Người dùng nói gì | Đọc file này | Làm gì |
 |---|---|---|
-| *"làm bánh xe cuộc đời"* · *"nhìn lại cuộc sống"* · *"lập kế hoạch dài hạn"* · vừa cài xong và hỏi *"giờ làm gì"* | `.claude/skills/banh-xe-cuoc-doi/SKILL.md` | **Việc 0** — làm trước tiên, trước cả khi dựng bộ não |
 | *"bắt đầu"* · *"tạo bộ não thứ 2"* · *"dựng lại từ đầu"* | `.claude/skills/onboard/SKILL.md` | Dựng bộ não lần đầu |
 | *"lưu cái này vào não"* · *"nạp vào kho"* · *"ghi lại insight này"* · người dùng kể một chuyện mới hoặc đưa tài liệu | `.claude/skills/nap-kho/SKILL.md` | **Đường ghi DUY NHẤT vào `wiki/`** |
 | *"kiểm chứng"* · *"test bộ não"* · *"bộ não chạy chưa"* · *"làm việc 6"* | `.claude/skills/kiem-chung/SKILL.md` | **Việc 6** — bài test bộ não đã lưu thật chưa |

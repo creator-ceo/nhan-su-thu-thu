@@ -4,7 +4,7 @@
 
 Ném thư mục này vào một công cụ AI bậc 2, nhắn *"bắt đầu"*, trả lời phỏng vấn — bạn có một bộ não thứ 2 chạy được thật trong 5–10 tiếng.
 
-> **Phiên bản:** `v2.9` · 2026-09-06 — xem [CHANGELOG.md](CHANGELOG.md)
+> **Phiên bản:** `v3.0` · 2026-09-07 — xem [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -42,9 +42,9 @@ AI tự tạo `SecondBrain/` rồi phỏng vấn bạn từng câu.
 
 ### ⚠️ Chỗ hay sai nhất — phải mở đúng thư mục
 
-`CLAUDE.md` và 4 lệnh `/banh-xe-cuoc-doi` `/nap-kho` `/kiem-chung` `/onboard` **chỉ được nạp khi thư mục này là gốc của phiên làm việc**. Clone về rồi vẫn ngồi ở thư mục cũ thì AI không thấy gì cả.
+`CLAUDE.md` và 3 lệnh `/onboard` `/nap-kho` `/kiem-chung` **chỉ được nạp khi thư mục này là gốc của phiên làm việc**. Clone về rồi vẫn ngồi ở thư mục cũ thì AI không thấy gì cả.
 
-**Dấu hiệu bạn đang sai chỗ:** nhắn *"bắt đầu"* mà AI trả lời như một AI bình thường — không hỏi về Bánh Xe Cuộc Đời, không tạo thư mục `SecondBrain/`, gõ `/` không thấy 4 lệnh trên. Bộ khung không hỏng, chỉ là chưa được nạp.
+**Dấu hiệu bạn đang sai chỗ:** nhắn *"bắt đầu"* mà AI trả lời như một AI bình thường — không hỏi ngược, không tạo thư mục `SecondBrain/`, gõ `/` không thấy 3 lệnh trên. Bộ khung không hỏng, chỉ là chưa được nạp.
 
 **Claude Code:**
 ```bash
@@ -68,10 +68,10 @@ codex
 ```
 Codex đọc [`AGENTS.md`](AGENTS.md) thay vì `CLAUDE.md` — file đó có sẵn trong bộ này và trỏ ngược về `CLAUDE.md`, nên nội dung y hệt.
 
-Khác biệt duy nhất: **Codex không có lệnh gạch chéo** cho 4 skill, vì nó tìm skill ở `.codex/skills/` còn bộ này để ở `.claude/skills/`. Thay vào đó bạn gọi **bằng lời**: *"làm bánh xe cuộc đời"*, *"lưu cái này vào não"*, *"kiểm chứng bộ não"*. `AGENTS.md` đã dặn sẵn AI mở đúng file khi nghe những câu đó. *(Muốn có lệnh `/` thì xem mục cuối `AGENTS.md`.)*
+Khác biệt duy nhất: **Codex không có lệnh gạch chéo** cho 3 skill, vì nó tìm skill ở `.codex/skills/` còn bộ này để ở `.claude/skills/`. Thay vào đó bạn gọi **bằng lời**: *"dựng bộ não cho tôi"*, *"lưu cái này vào não"*, *"kiểm chứng bộ não"*. `AGENTS.md` đã dặn sẵn AI mở đúng file khi nghe những câu đó. *(Muốn có lệnh `/` thì xem mục cuối `AGENTS.md`.)*
 
 **Kiểm nhanh trước khi bắt đầu:**
-- Claude Code / Cowork: gõ `/` và tìm `/banh-xe-cuoc-doi`. Thấy là đúng chỗ.
+- Claude Code / Cowork: gõ `/` và tìm `/onboard`. Thấy là đúng chỗ.
 - Codex: hỏi *"bạn đang đọc luật từ file nào?"* — trả lời có `AGENTS.md` hoặc `CLAUDE.md` là đúng chỗ.
 
 Không thấy gì thì bạn đang ở sai thư mục — đừng nhắn tiếp, thoát ra `cd` vào rồi mở lại.
@@ -113,18 +113,15 @@ Khung này đã được thiết kế sẵn — bạn **không cần tự nghĩ 
 ```
 CLAUDE.md                    luật vận hành — Claude Code/Cowork tự đọc mỗi phiên
 AGENTS.md                    bản cho Codex CLI — trỏ về CLAUDE.md, không lặp nội dung
-BAT-DAU-TU-DAY.md            checklist 8 việc
+BAT-DAU-TU-DAY.md            checklist 7 việc
 START-HERE.txt               hướng dẫn 1 phút
 
 .claude/skills/
-  banh-xe-cuoc-doi/          Việc 0 — nhìn lại 8 khía cạnh, ra kế hoạch dài/ngắn hạn
   onboard/                   dựng bộ não lần đầu
   nap-kho/                   đường ghi DUY NHẤT vào wiki
   kiem-chung/                Việc 6 — bài test bộ não đã lưu thật chưa
 
 templates/                   khung 11 trang neo + vòng 2
-
-bo-kham/                    máy chạy buổi khám nút thắt (SINH RA, đừng sửa tay)
   vong2/                     trang tạo rỗng, không điền (vận hành + chất liệu viết)
   khung-lap-lai/             khung cho models · people · projects · learnings
 
@@ -137,18 +134,17 @@ reference/
 
 ---
 
-## Sáu lệnh trong bộ khung
+## Ba lệnh — và đó là toàn bộ bộ khung này
 
 | Lệnh | Làm gì | Bao lâu một lần |
 |---|---|---|
-| `/banh-xe-cuoc-doi` | Việc 0 — làm **trước tiên**, trước cả khi dựng bộ não | 3 tháng |
-| `/onboard` | dựng nền dữ liệu, hoặc dựng lại từ đầu nếu cần | một lần |
-| `/nap-kho` | nạp chuyện mới, insight mới, tài liệu mới — **đường ghi duy nhất**, đừng sửa tay file `.md` | mỗi lần có gì đáng nạp |
-| `/kiem-chung` | Việc 6 — chạy sau khi dựng xong, và sau mỗi lần nạp khối lớn | sau mỗi khối lớn |
-| `/kham-benh` | soi bạn đang tắc ở khâu nào — hỏi ~22 ô rồi kê đơn hai ngăn *(v2.9)* | 3 tháng |
-| `/tong-giam-doc` | vai điều phối: đọc bản khám gần nhất, chốt **một** việc cho tháng, nghiệm thu bằng hai con số *(v2.9)* | mỗi tháng |
+| `/onboard` | **dựng** bộ não lần đầu, hoặc dựng lại từ đầu nếu cần | một lần |
+| `/nap-kho` | **ghi** vào bộ não — chuyện mới, insight mới, tài liệu mới. **Đường ghi duy nhất**, đừng sửa tay file `.md` | mỗi lần có gì đáng nạp |
+| `/kiem-chung` | **kiểm** bộ não — Việc 6, chạy sau khi dựng xong và sau mỗi lần nạp khối lớn | sau mỗi khối lớn |
 
-⚠️ `/tong-giam-doc` **không tự khám** — nó gọi `/kham-benh`. Hai bộ khám là hai kết quả khác nhau cho cùng một người, và không có gì báo khi chúng lệch.
+📌 **Ba lệnh này cố ý ít.** Bộ khung chỉ làm đúng một việc: **xây và giữ cái bộ não**. Còn *dùng* bộ não để viết bài, thiết kế, bán hàng, chốt việc của tháng — đó là các **vai nhân sự A.I**, cài rời ở kho riêng. Xem mục ngay dưới.
+
+⚠️ **`/banh-xe-cuoc-doi` đã rời khỏi bộ khung từ v3.0.** Nó là bài lập kế hoạch, không phải việc xây bộ não — nay thuộc vai Điều phối, chưa phát. Có sẵn một bản kế hoạch (bánh xe, OKR, kế hoạch 90 ngày) thì cứ đưa cho AI ở Việc 3, `/onboard` dùng thẳng làm `goals.md`. Chưa có cũng chạy được hết lộ trình.
 
 ---
 
