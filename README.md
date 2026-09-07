@@ -11,7 +11,7 @@
 
 Ném thư mục này vào một công cụ AI bậc 2, nhắn *"bắt đầu"*, trả lời phỏng vấn — bạn có một bộ não thứ 2 chạy được thật trong 5–10 tiếng.
 
-> **Phiên bản:** `v4.1` · 2026-09-07 — xem [CHANGELOG.md](CHANGELOG.md)
+> **Phiên bản:** `v4.2` · 2026-09-07 — xem [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -83,7 +83,7 @@ Khác biệt duy nhất: **Codex không có lệnh gạch chéo** cho 4 skill, v
 
 Không thấy gì thì bạn đang ở sai thư mục — đừng nhắn tiếp, thoát ra `cd` vào rồi mở lại.
 
-📍 **Toàn bộ lộ trình 7 việc:** [BAT-DAU-TU-DAY.md](BAT-DAU-TU-DAY.md) — tick từng ô, vừa là bản đồ vừa là bằng chứng.
+📍 **Toàn bộ lộ trình 8 việc:** [BAT-DAU-TU-DAY.md](BAT-DAU-TU-DAY.md) — tick từng ô, vừa là bản đồ vừa là bằng chứng.
 
 ---
 
@@ -138,7 +138,7 @@ Khung này đã được thiết kế sẵn — bạn **không cần tự nghĩ 
 ```
 CLAUDE.md                    luật vận hành — Claude Code/Cowork tự đọc mỗi phiên
 AGENTS.md                    bản cho Codex CLI — trỏ về CLAUDE.md, không lặp nội dung
-BAT-DAU-TU-DAY.md            checklist 7 việc
+BAT-DAU-TU-DAY.md            checklist 8 việc — 1–7 dựng nền, 8 cài vai đầu tiên
 START-HERE.txt               hướng dẫn 1 phút
 
 .claude/skills/
