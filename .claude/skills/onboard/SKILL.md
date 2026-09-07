@@ -87,7 +87,9 @@ Dùng khung trong `templates/`, giữ nguyên heading, chỉ thay `[...]`. **Kh�
 
 ### 🚫 Tuyệt đối KHÔNG tạo file rỗng cho vai khác
 
-Không dựng `voice-profile`, `experiences-library`, `customer-wins`, `hook-library`, `content-library`, `models/`, `business-metrics`, `positioning`… **kể cả file rỗng có khung.** Không tạo thư mục `models/` `people/` `projects/` `learnings/`.
+Không dựng `voice-profile`, `experiences-library`, `customer-wins`, `hook-library`, `content-library`, `models/`, `business-metrics`, `positioning`… **kể cả file rỗng có khung.**
+
+⚠️ **`learnings/` `projects/` `people/` thì KHÁC — chúng là kho của chính nền**, không thuộc vai nào; `/nap-kho` ghi thẳng vào đó. Nhưng vẫn **không tạo thư mục rỗng ở đây**: `/nap-kho` tạo ngay lúc ghi file đầu tiên. Một thư mục rỗng cũng không nói được gì hơn một dòng trong `index.md`.
 
 Ba lý do, cái thứ hai là cái nặng nhất:
 

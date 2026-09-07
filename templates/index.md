@@ -45,7 +45,6 @@
 | [[content-library]] | Bài đã đăng | ⬜ vai Content |
 | [[audience-insights]] | Lời khán giả nói, nguyên văn | ⬜ vai Content |
 | [[video-production-setup]] | Nguồn lực quay thật — máy, mic, đèn, bối cảnh | ⬜ vai Content |
-| `models/` | Hình mẫu đang học — mỗi người 1 trang | ⬜ vai Content |
 
 ## 🎛️ Mục tiêu & kế hoạch — vai Điều phối dựng lúc cài
 
@@ -67,10 +66,15 @@
 
 ## 📁 Thư mục
 
-| Thư mục | Chứa gì | Ai tạo |
+| Thư mục | Chứa gì | Ai lấp |
 |---|---|---|
 | `raw/` | ⛔ Nguồn gốc bất biến — không bao giờ sửa | ✅ nền |
-| `learnings/` · `people/` · `projects/` · `teachings/` | Học được từ sách/khoá · người · dự án · bài dạy | ⬜ vai nào cần thì vai đó tạo |
+| `learnings/` | Thứ hấp thụ **từ ngoài**, gom theo **chủ đề** chứ không theo nguồn | ✅ nền, qua `/nap-kho` |
+| `projects/` | Mỗi dự án một trang — **sổ quyết định**: chốt gì, ngày nào, vì sao | ✅ nền, qua `/nap-kho` |
+| `people/` | Mỗi người một trang — **nhật ký quan hệ**, nối thêm mỗi lần gặp | ✅ nền, qua `/nap-kho` |
+| `models/` | Hình mẫu đang học — mỗi người một trang | ⬜ vai Content |
+
+⚡ **Ba thư mục của nền dựng khi có file đầu tiên, không dựng rỗng.** `/onboard` không tạo chúng; `/nap-kho` tạo ngay lúc ghi file đầu vào đó.
 
 ---
 

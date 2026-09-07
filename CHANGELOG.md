@@ -4,6 +4,28 @@ Bộ khung này còn tiến hoá. Trang này ghi cái gì đổi và **vì sao**
 
 ---
 
+## v3.2 — 2026-09-07
+
+**Sửa một chỗ xếp sai của v3.1, và bổ sung `people/` vào `/nap-kho`.**
+
+- 🔴 **Trả `learnings/` `projects/` `people/` về nền.** v3.1 đẩy chúng ra `khuon-cua-vai/chua-co-vai/` dựa trên phép đo *"không vai nào đọc"*. **Phép đo đó hỏi sai câu** — nó hỏi *vai nào ĐỌC* mà không hỏi *skill nào GHI*. `/nap-kho`, skill của chính nền, đã ghi vào `learnings/` và `projects/` từ trước.
+
+  Chúng không thuộc vai nào vì chúng **thuộc về nền**, cùng lý do `about-me` thuộc nền dù không skill nào đọc: đó là phần làm nó thành *bộ não* chứ không phải bộ công cụ. Bằng chứng mạnh nhất là dung lượng kho thật: `people/` 17 file *(lớn nhất 619 dòng)* · `projects/` 14 file *(1.507 dòng)* · `learnings/` 12 file — **lớn hơn hẳn 10 trang nền**. Phép đo cũ bỏ lọt đúng phần lớn nhất của bộ não.
+
+- **`/nap-kho` thiếu hẳn `people/` trong bảng phân loại.** Người dùng kể chuyện về một người thì skill không biết bỏ đâu — nó sẽ nhét vào `experiences-library` hoặc `learnings/`, và trang về người đó không bao giờ ra đời. Nay có dòng riêng, kèm hai luật:
+  - ⚡ **`people/` là nhật ký quan hệ, không phải danh bạ.** Mỗi lần gặp lại là một mục `### <ngày>` **nối thêm**, kèm đường dẫn về `raw/`. Viết đè là mất đúng thứ làm trang này đáng giá — nhìn được cả đường đi của một mối quan hệ.
+  - ⚠️ Trang về người thật → đọc `reference/luat-du-lieu-nhay-cam.md` trước.
+
+- **Bảng phân loại của `/nap-kho` thêm cột *Khuôn của ai*,** và một luật mới cho ca đích đến thuộc vai chưa cài: **vẫn ghi** — đây là đường ghi duy nhất, từ chối là mất luôn nguyên liệu — nhưng nói ra một dòng rằng trang này của vai nào và cài vai đó thì nó dựng đúng khuôn.
+
+  🚫 **Ngoại lệ đúng một trang: `voice-profile.md` thì KHÔNG tự dựng.** Nó phải rút từ 5–10 bài đã đăng thật; dựng từ một câu nhận xét thoáng qua là đẻ ra hồ sơ giọng sai, rồi **mọi bài viết sau đó sai theo mà không ai biết vì sao**.
+
+- **Vẫn không tạo thư mục rỗng.** Ba thư mục trên mọc lên khi `/nap-kho` ghi file đầu tiên. Một thư mục rỗng không nói được gì hơn một dòng trong `index.md`, mà `index.md` thì nói được cả chủ của nó.
+
+- `khuon-cua-vai/chua-co-vai/` còn đúng `expertise` — không vai nào đọc, không skill nào ghi.
+
+---
+
 ## v3.1 — 2026-09-07
 
 **Nền thành con thủ thư: dựng đúng 10 trang, không tạo file rỗng cho vai nào khác.**

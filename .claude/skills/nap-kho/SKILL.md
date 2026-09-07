@@ -19,17 +19,34 @@ Sửa thẳng file `.md` thì nhanh hơn — và đó chính là vấn đề. Sa
 
 Đọc kỹ nguyên liệu người dùng đưa. Xác định nó là loại gì:
 
-| Loại | Dấu hiệu | Đích đến |
-|---|---|---|
-| **Câu chuyện** | có mốc thời gian, có chuyện xảy ra với chính người dùng | `experiences-library.md` |
-| **Insight khách hàng** | lời khách nói, điều quan sát được từ khách thật | `audience-insights.md` |
-| **Bài học / nguyên lý** | một điều vừa nhận ra, áp dụng được nhiều lần | trang chuyên đề trong `learnings/` |
-| **Hình mẫu** | một người/thương hiệu đang học theo | `models/<tên>.md` |
-| **Kết quả khách** | có con số, có bằng chứng | `customer-wins.md` |
-| **Quyết định dự án** | chốt một hướng đi, đổi phạm vi | `projects/<tên>.md` |
-| **Tài liệu dài** | transcript, bài viết, khoá học | lưu `raw/` trước, rồi rút ra các trang trên |
+| Loại | Dấu hiệu | Đích đến | Khuôn của ai |
+|---|---|---|---|
+| **Bài học / nguyên lý** | một điều vừa nhận ra, áp dụng được nhiều lần | trang chuyên đề trong `learnings/` | nền |
+| **Quyết định dự án** | chốt một hướng đi, đổi phạm vi, gặp sự cố | `projects/<tên>.md` | nền |
+| **Về một con người** | ai đó nói gì, muốn gì, đang vướng gì, chốt việc gì với mình | `people/<tên>.md` | nền |
+| **Câu chuyện** | có mốc thời gian, có chuyện xảy ra với chính người dùng | `experiences-library.md` | vai Content |
+| **Insight khách hàng** | lời khách nói, điều quan sát được từ khách thật | `audience-insights.md` | vai Content |
+| **Kết quả khách** | có con số, có bằng chứng | `customer-wins.md` | vai Content |
+| **Hình mẫu** | một người/thương hiệu đang học theo | `models/<tên>.md` | vai Content |
+| **Tài liệu dài** | transcript, bài viết, khoá học | lưu `raw/` trước, rồi rút ra các trang trên | — |
 
 Không rõ loại → **hỏi người dùng**, đừng đoán rồi đặt bừa.
+
+### Ba thư mục của nền — dựng khi có file đầu tiên, không dựng rỗng
+
+`learnings/` · `projects/` · `people/` là **kho của chính bộ não**, không thuộc vai nào. Khuôn ở `templates/khung-lap-lai/`. `/onboard` **không** tạo sẵn ba thư mục này; skill này tạo thư mục ngay lúc ghi file đầu tiên vào đó.
+
+⚡ **`people/` là nhật ký quan hệ, không phải danh bạ.** Mỗi người một file, và nó **dài ra bằng cách NỐI THÊM**: mỗi lần gặp lại là một mục `### <ngày> — <tên buổi>` mới ở phần *Lịch sử trò chuyện*, kèm đường dẫn về `raw/`. Viết đè lên mục cũ là mất đúng thứ làm trang này đáng giá — nhìn được cả đường đi của một mối quan hệ.
+
+⚠️ **Trang về người thật:** đọc `reference/luat-du-lieu-nhay-cam.md` trước khi ghi.
+
+### Đích đến thuộc một vai CHƯA CÀI thì làm gì
+
+**Vẫn ghi — đừng để rơi nguyên liệu.** Đây là đường ghi duy nhất; từ chối là mất luôn thứ người dùng vừa kể.
+
+Nhưng phải **nói ra một dòng**: trang này thuộc vai nào, và cài vai đó thì nó dựng lại cho đúng khuôn. Ví dụ: *"Đã lưu chuyện này vào `experiences-library.md`. Trang này của vai Content — cài `/viet-content` thì nó dựng đủ khuôn 5 bước và biết hỏi thêm gì."*
+
+🚫 **Riêng `voice-profile.md` thì KHÔNG tự dựng.** Nó phải rút từ 5–10 bài đã đăng thật; dựng nó từ một câu nhận xét thoáng qua là đẻ ra một hồ sơ giọng sai, rồi mọi bài viết sau đó sai theo mà không ai biết vì sao. Gặp nguyên liệu kiểu đó thì nói thẳng: cài vai Content, nó làm đúng việc này.
 
 ---
 

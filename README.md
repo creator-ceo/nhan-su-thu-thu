@@ -4,7 +4,7 @@
 
 Ném thư mục này vào một công cụ AI bậc 2, nhắn *"bắt đầu"*, trả lời phỏng vấn — bạn có một bộ não thứ 2 chạy được thật trong 5–10 tiếng.
 
-> **Phiên bản:** `v3.1` · 2026-09-07 — xem [CHANGELOG.md](CHANGELOG.md)
+> **Phiên bản:** `v3.2` · 2026-09-07 — xem [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -97,6 +97,15 @@ SecondBrain/
   log.md        nhật ký — mỗi lần nạp một dòng, chỉ thêm không xoá
 ```
 
+Rồi ba thư mục nữa **mọc lên khi bạn nạp**, không tạo rỗng chờ sẵn — `/nap-kho` dựng chúng lúc ghi file đầu tiên:
+
+```
+  wiki/people/     mỗi người một trang — NHẬT KÝ QUAN HỆ, không phải danh bạ.
+                   Nối thêm mỗi lần gặp lại, không viết đè.
+  wiki/projects/   mỗi dự án một trang — SỔ QUYẾT ĐỊNH: chốt gì, ngày nào, vì sao.
+  wiki/learnings/  thứ bạn hấp thụ từ ngoài, gom theo CHỦ ĐỀ chứ không theo nguồn.
+```
+
 ⚡ **Đúng 10 trang, và thư mục `wiki/` sạch trơn ngoài chúng.** Không có file rỗng nào chờ sẵn.
 
 Cài thêm một vai — Content chẳng hạn — thì **vai đó** dựng kho của nó: `voice-profile`, `hook-library`, `models/`… Vai nào chưa cài thì trang của nó chưa tồn tại, và `index.md` nói rõ ai là chủ của nó.
@@ -128,6 +137,7 @@ START-HERE.txt               hướng dẫn 1 phút
   kiem-chung/                Việc 6 — bài test bộ não đã lưu thật chưa
 
 templates/                   khung 10 trang nền + index + log
+  khung-lap-lai/             khung cho people · projects · learnings
 
 reference/
   huong-dan-cai-dat.md       Việc 1 + Việc 5 + bảng tra lỗi

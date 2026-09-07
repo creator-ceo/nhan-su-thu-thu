@@ -20,6 +20,16 @@
 
 Cộng `index.md` và `log.md`.
 
+## Ba khung lặp lại — `khung-lap-lai/`
+
+Kho của chính bộ não, **không thuộc vai nào**. `/onboard` không tạo thư mục rỗng cho chúng; `/nap-kho` tạo khi ghi file đầu tiên.
+
+| Khung | Là gì |
+|---|---|
+| `people.md` | **Nhật ký quan hệ**, không phải danh bạ. Mỗi người một file, nối thêm mỗi lần gặp — mục *Lịch sử trò chuyện* là phần đáng giá nhất, đừng viết đè |
+| `projects.md` | **Sổ quyết định**. Chốt gì · ngày nào · vì sao. Không phải bản mô tả dự án |
+| `learnings.md` | Thứ hấp thụ **từ ngoài**, gom theo **chủ đề** chứ không theo nguồn. Một file gom nhiều nguồn |
+
 ## 🚫 Khuôn của vai KHÔNG nằm ở đây nữa *(đổi từ v3.1)*
 
 `voice-profile`, `experiences-library`, `customer-wins`, `hook-library`, `content-library`, `audience-insights`, `models`, `business-metrics`, `positioning`, `customers`, `competitors`, `brand-guide` đã chuyển sang **vai sở hữu chúng**, và vai đó dựng trang lúc được cài.
