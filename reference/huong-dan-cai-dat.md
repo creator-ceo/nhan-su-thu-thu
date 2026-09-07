@@ -65,9 +65,9 @@ Tải Git for Windows ở `git-scm.com`, cài bằng cách bấm Next hết. Ho�
 **4. Đường dẫn có dấu cách thì phải có nháy kép**
 
 ```powershell
-cd "C:\Users\Ten Ban\Documents\second-brain-file-ai"
+cd "C:\Users\Ten Ban\Documents\nhan-su-thu-thu"
 ```
-Thiếu nháy kép là báo lỗi ngay. Cách tránh: để thư mục ở chỗ không có dấu cách, ví dụ `C:\second-brain-file-ai`.
+Thiếu nháy kép là báo lỗi ngay. Cách tránh: để thư mục ở chỗ không có dấu cách, ví dụ `C:\nhan-su-thu-thu`.
 
 **Kiểm sau khi giải nén zip:** mở thư mục, phải thấy `CLAUDE.md`, `templates`, và **`.claude`**. Không thấy `.claude` thì bật *View → Hidden items* trong File Explorer. Thiếu thư mục đó là mất cả 4 lệnh.
 
@@ -81,8 +81,8 @@ Nhắn vào nhóm kèm **ảnh chụp màn hình chỗ kẹt**. Đây là việc
 
 ## VIỆC 2 — Ném bộ khung vào công cụ
 
-1. Giải nén file zip → được thư mục `second-brain-file-ai`.
-2. Đặt thư mục đó ở chỗ **dễ tìm và không bị xoá nhầm** — ví dụ `Documents/second-brain-file-ai`. Đừng để trong Downloads.
+1. Giải nén file zip → được thư mục `nhan-su-thu-thu`.
+2. Đặt thư mục đó ở chỗ **dễ tìm và không bị xoá nhầm** — ví dụ `Documents/nhan-su-thu-thu`. Đừng để trong Downloads.
 3. Mở công cụ, đặt thư mục này làm workspace (Cowork: kéo cả thư mục vào cửa sổ).
 4. Nhắn: **"bắt đầu"**.
 
@@ -107,7 +107,7 @@ Obsidian **miễn phí** cho dùng cá nhân, và **không đẩy dữ liệu l�
 ### Ba bước
 
 1. Tải ở `obsidian.md` → cài như phần mềm bình thường.
-2. Mở lên → **Open folder as vault** → trỏ vào thư mục **`SecondBrain`** *(trỏ vào đúng thư mục này, không phải thư mục `second-brain-file-ai` bên ngoài)*.
+2. Mở lên → **Open folder as vault** → trỏ vào thư mục **`SecondBrain`** *(trỏ vào đúng thư mục này, không phải thư mục `nhan-su-thu-thu` bên ngoài)*.
 3. Bấm thử một `[[liên kết]]` bất kỳ — nhảy được sang trang khác là xong.
 
 ### Đáng bật ngay

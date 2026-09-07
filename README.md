@@ -1,10 +1,17 @@
-# second-brain-file-ai
+# nhan-su-thu-thu
 
-**Bộ khung dựng Bộ Não Thứ 2** — dành cho thành viên Creator CEO / Creator Việt Nam.
+**Vai Thủ thư — cái nền, cài đầu tiên.** Nó dựng và giữ Bộ Não Thứ 2 của bạn: phỏng vấn để nạp dữ liệu nền, giữ đường ghi duy nhất vào kho, và kiểm xem kho đã lưu thật chưa.
+
+> 🔄 **Đổi tên 2026-09-07: `second-brain-file-ai` → `nhan-su-thu-thu`.** Tên cũ mô tả *định dạng file*; tên mới mô tả *việc nó làm*, và xếp cùng hàng với các vai khác trong đội. GitHub tự chuyển hướng link cũ, nhưng nếu bạn đã clone trước ngày này thì đổi remote cho gọn:
+> ```bash
+> git remote set-url origin https://github.com/creator-ceo/nhan-su-thu-thu.git
+> ```
+
+**Vai này chạy được một mình.** Các vai khác — Content, Điều phối, Bán hàng — cài rời, và tất cả đều đứng trên cái nền này.
 
 Ném thư mục này vào một công cụ AI bậc 2, nhắn *"bắt đầu"*, trả lời phỏng vấn — bạn có một bộ não thứ 2 chạy được thật trong 5–10 tiếng.
 
-> **Phiên bản:** `v3.3` · 2026-09-07 — xem [CHANGELOG.md](CHANGELOG.md)
+> **Phiên bản:** `v3.4` · 2026-09-07 — xem [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -15,8 +22,8 @@ Ném thư mục này vào một công cụ AI bậc 2, nhắn *"bắt đầu"*, 
 Bộ khung này còn tiến hoá. Clone thì sau này gõ một lệnh là có bản mới nhất.
 
 ```bash
-git clone https://github.com/creator-ceo/second-brain-file-ai.git
-cd second-brain-file-ai
+git clone https://github.com/creator-ceo/nhan-su-thu-thu.git
+cd nhan-su-thu-thu
 ```
 
 Cập nhật về sau:
@@ -48,22 +55,22 @@ AI tự tạo `SecondBrain/` rồi phỏng vấn bạn từng câu.
 
 **Claude Code:**
 ```bash
-git clone https://github.com/creator-ceo/second-brain-file-ai.git
-cd second-brain-file-ai
+git clone https://github.com/creator-ceo/nhan-su-thu-thu.git
+cd nhan-su-thu-thu
 claude
 ```
 Ba dòng, theo đúng thứ tự. Dòng `cd` là dòng quan trọng nhất — thiếu nó thì hai dòng kia vô nghĩa.
 
 *(Nếu bạn nhờ AI clone hộ: clone xong phải **thoát ra, `cd` vào thư mục vừa tạo, mở lại** ở đó. Clone trong cùng một phiên rồi nhắn tiếp thì phiên đó vẫn chưa nạp `CLAUDE.md`.)*
 
-**Claude Cowork / AntiGravity:** kéo cả thư mục `second-brain-file-ai` vào cửa sổ, hoặc chọn nó làm workspace — không chọn thư mục cha chứa nó.
+**Claude Cowork / AntiGravity:** kéo cả thư mục `nhan-su-thu-thu` vào cửa sổ, hoặc chọn nó làm workspace — không chọn thư mục cha chứa nó.
 
 **🪟 Máy Windows:** ba dòng lệnh y hệt, gõ trong **PowerShell**. Claude Code có bản chạy thẳng trên Windows, **không cần WSL** — cài bằng `irm https://claude.ai/install.ps1 | iex`. Bốn chỗ hay vấp (lệnh `claude` không nhận, chưa có git, đường dẫn có dấu cách, thư mục ẩn `.claude`) đã ghi ở [`reference/huong-dan-cai-dat.md`](reference/huong-dan-cai-dat.md).
 
 **Codex CLI:**
 ```bash
-git clone https://github.com/creator-ceo/second-brain-file-ai.git
-cd second-brain-file-ai
+git clone https://github.com/creator-ceo/nhan-su-thu-thu.git
+cd nhan-su-thu-thu
 codex
 ```
 Codex đọc [`AGENTS.md`](AGENTS.md) thay vì `CLAUDE.md` — file đó có sẵn trong bộ này và trỏ ngược về `CLAUDE.md`, nên nội dung y hệt.
@@ -183,7 +190,7 @@ Bộ khung này còn tiến hoá — xem [CHANGELOG.md](CHANGELOG.md) để bi�
 ### Nếu bạn cài bằng `git clone`
 
 ```bash
-cd second-brain-file-ai
+cd nhan-su-thu-thu
 git pull
 ```
 
@@ -191,7 +198,7 @@ git pull
 
 ### Nếu bạn cài bằng file zip
 
-1. Tải bản mới → giải nén → được thư mục `second-brain-file-ai` **mới**
+1. Tải bản mới → giải nén → được thư mục `nhan-su-thu-thu` **mới**
 2. Mở thư mục **cũ**, kéo nguyên thư mục **`SecondBrain`** sang thư mục **mới**
 3. Xoá thư mục cũ, mở công cụ AI trong thư mục mới
 
@@ -237,7 +244,10 @@ claude plugin install content
 
 | Vai | Kho | Trạng thái |
 |---|---|---|
+| 🧑‍🏫 **Thủ thư** — dựng · ghi · kiểm bộ não | `creator-ceo/nhan-su-thu-thu` | ✅ **chính là kho này**, cài đầu tiên |
 | ✍️ **Content** — viết bài, hook, ý tưởng, kịch bản video, mindmap | `creator-ceo/nhan-su-content` | ✅ cài được |
-| 🎛️ Điều phối · 🎨 Thiết kế · 💰 Bán hàng · 🤝 Chăm sóc · 🔍 Nghiên cứu | — | ⬜ đang đóng gói |
+| 🎛️ **Điều phối** — bánh xe, khám nút thắt, chốt việc của tháng | `creator-ceo/nhan-su-dieu-phoi` | 🟡 đang đóng gói |
+| 💰 **Bán hàng** — offer, phễu, trang bán, kịch bản gọi | `creator-ceo/nhan-su-ban-hang` | 🟡 đang đóng gói |
+| 🎨 Thiết kế · 🤝 Chăm sóc · 🔍 Nghiên cứu | — | ⬜ chưa |
 
 ⚠️ **Vai cần nền chạy trước.** Vai Content đọc `wiki/voice-profile.md`, `wiki/experiences-library.md`… — những trang do `/onboard` và `/nap-kho` dựng ra. Cài vai lên một thư mục trống thì nó chạy được nhưng viết bằng trí nhớ chung chung, không phải bằng chất liệu của bạn.

@@ -4,6 +4,30 @@ Bộ khung này còn tiến hoá. Trang này ghi cái gì đổi và **vì sao**
 
 ---
 
+## v3.4 — 2026-09-07
+
+**Đổi tên kho: `second-brain-file-ai` → `nhan-su-thu-thu`.**
+
+- Tên cũ mô tả **định dạng file**; tên mới mô tả **việc nó làm**, và xếp cùng hàng với các vai còn lại trong đội nhân sự A.I. Cả bốn kho nay đọc thành một bộ:
+
+  | Vai | Kho |
+  |---|---|
+  | 🧑‍🏫 Thủ thư *(nền, cài đầu tiên)* | `creator-ceo/nhan-su-thu-thu` |
+  | ✍️ Content | `creator-ceo/nhan-su-content` |
+  | 🎛️ Điều phối | `creator-ceo/nhan-su-dieu-phoi` |
+  | 💰 Bán hàng | `creator-ceo/nhan-su-ban-hang` |
+
+- ⚠️ **Đã clone trước ngày này thì không gãy** — GitHub tự chuyển hướng link cũ. Nhưng đổi remote cho gọn:
+  ```bash
+  git remote set-url origin https://github.com/creator-ceo/nhan-su-thu-thu.git
+  ```
+
+- Sửa **10 file** đang trỏ tên cũ: lệnh `git clone`, lệnh `cd`, tên thư mục sau khi giải nén, đường dẫn ví dụ trong hướng dẫn cài đặt Windows/Obsidian, và cả `description` của một skill bên gói Điều phối.
+
+- README mở đầu bằng **vai Thủ thư làm gì** thay vì tên định dạng, và bảng *Cài thêm vai* nay kể đủ sáu vai kèm kho thật của từng vai — vai nào chưa có kho thì ghi ⬜ thay vì để trống.
+
+---
+
 ## v3.3 — 2026-09-07
 
 **`expertise` về nền (11 trang), và bộ số liệu chuẩn tách ra thành trang riêng của vai Content.**

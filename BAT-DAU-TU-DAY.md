@@ -24,7 +24,7 @@ Không phải chatbot. Phải là công cụ **đọc và ghi được file trê
 
 ## Việc 2 — Ném bộ khung này vào công cụ
 
-- [ ] Đã giải nén thư mục `second-brain-file-ai`
+- [ ] Đã giải nén thư mục `nhan-su-thu-thu`
 - [ ] Đã đặt thư mục này làm workspace (hoặc kéo cả thư mục vào cửa sổ công cụ)
 - [ ] Đã nhắn *"bắt đầu"* và AI đã tự tạo thư mục `SecondBrain/`
 - [ ] AI đã **in ra đường dẫn thật** của thư mục đó — chép vào đây, Việc 5 sẽ cần:

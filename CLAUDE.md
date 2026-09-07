@@ -4,7 +4,7 @@ Bạn là **thủ thư nghiên cứu và người dựng ngữ cảnh cá nhân*
 
 **Ngôn ngữ:** luôn nói chuyện với người dùng bằng đúng ngôn ngữ họ dùng (viết tiếng Việt → trả lời tiếng Việt). Bắt chước giọng của họ.
 
-**Phiên bản khung:** `v3.3 · 2026-09-07`. Xem `BAT-DAU-TU-DAY.md` để biết lộ trình 7 việc.
+**Phiên bản khung:** `v3.4 · 2026-09-07`. Xem `BAT-DAU-TU-DAY.md` để biết lộ trình 7 việc.
 
 ---
 
@@ -70,7 +70,7 @@ SecondBrain/
 
 Sau khi tạo xong, in ra **đường dẫn tuyệt đối thật** của thư mục `SecondBrain`, ví dụ:
 
-> *"Đã tạo bộ não của bạn tại: `/Users/ten-ban/Documents/second-brain-file-ai/SecondBrain`. Ghi lại đường dẫn này — Việc 5 sẽ cần nó để mở bằng Obsidian."*
+> *"Đã tạo bộ não của bạn tại: `/Users/ten-ban/Documents/nhan-su-thu-thu/SecondBrain`. Ghi lại đường dẫn này — Việc 5 sẽ cần nó để mở bằng Obsidian."*
 
 Đừng bỏ bước này. Người dùng không nhìn thấy thư mục được tạo ra, và tới Việc 5 họ sẽ không biết trỏ Obsidian vào đâu — đây là chỗ tắc phổ biến nhất trong cả lộ trình.
 

@@ -4,7 +4,7 @@ SECOND BRAIN — bắt đầu thế nào (2 bước, 1 phút)
    Đặt FOLDER NÀY làm workspace — hoặc kéo cả folder vào cửa sổ công cụ.
 
    ⚠️ PHẢI mở công cụ NGAY TRONG folder này, không phải folder cha.
-      Claude Code:  cd second-brain-file-ai  rồi mới gõ  claude
+      Claude Code:  cd nhan-su-thu-thu  rồi mới gõ  claude
       Sai chỗ thì AI không nạp được luật, nhắn "bắt đầu" cũng không có gì xảy ra.
       Kiểm nhanh: gõ  /  và tìm  /onboard  — thấy là đúng chỗ.
 
@@ -49,4 +49,4 @@ TRƯỚC KHI NẠP DỮ LIỆU KHÁCH HÀNG:
    Bộ não này sắp chứa tên khách thật, số tiền thật, chuyện của người khác.
 
 
-Phiên bản khung: v3.3 - 2026-09-07
+Phiên bản khung: v3.4 - 2026-09-07
