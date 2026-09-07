@@ -4,6 +4,33 @@ Bộ khung này còn tiến hoá. Trang này ghi cái gì đổi và **vì sao**
 
 ---
 
+## v3.1 — 2026-09-07
+
+**Nền thành con thủ thư: dựng đúng 10 trang, không tạo file rỗng cho vai nào khác.**
+
+- **Bỏ hẳn "Vòng 2" — 12 file rỗng có khung và 4 thư mục rỗng.** `/onboard` nay dựng đúng 10 trang, chia hai việc:
+  - **Chân dung** — `about-me` · `values-and-principles` · `contrarian-beliefs` · `decision-style` · `network`. **Không skill nào đọc chúng**, và đó không phải lỗi: chúng là thứ làm bộ não trả lời *như chính người dùng* khi họ ngồi nói chuyện với nó. Thiếu thì đây là kho tài liệu, không phải bộ não của ai.
+  - **Dùng chung** — `target-customer` · `offer-ladder` · `goals` · `ai-operating-preferences` · `systems-and-stack`. Từ **hai vai trở lên** cùng đọc. Đo thật: `target-customer` có **5 vai** đọc, nhiều nhất kho.
+
+- **Luật chia, sau khi đo chứ không đoán.** Đoàn chốt *"≥2 vai đọc → nền, 1 vai → vai đó tự dựng"*. Nhưng đếm trên toàn bộ skill đã đóng gói thì hai luật đá nhau ở đúng bốn trang: `voice-profile` có **4 vai** đọc mà **không dựng nổi ngày đầu** — nó cần 10–20 bài đã đăng thật. Nên luật thật là luật thứ ba:
+
+  > **Trang thuộc về vai nào ĐỦ SỨC DỰNG nó, không thuộc về vai đọc nó nhiều nhất.** Vai nào đọc mà chưa có thì cửa vào của chính vai đó phải biết dựng.
+
+- **Vì sao không giữ lại vỏ rỗng cho tiện — ba lý do, cái thứ hai nặng nhất:**
+  1. Nền không dựng nổi chúng. `customer-wins` cần khách thật, `business-metrics` cần số thật. Hỏi ngày đầu thì người ta nộp qua loa cho xong, hoặc dừng lại đi tìm rồi không quay lại.
+  2. **Vỏ rỗng không giúp được vai nào, vì chính vai đó bỏ qua nó.** Cửa vào của vai Content đếm file *"tồn tại VÀ có nội dung thật — không phải dòng 'chưa có dữ liệu'"*. Tức nền đang làm một việc mà người thụ hưởng duy nhất không dùng tới.
+  3. **Vỏ rỗng thối rữa im lặng.** Đo thật ngay trong bản này: `nut-that.md` được dựng sẵn kèm dòng *"trang này sinh ra từ việc X"*; v3.0 chuyển việc X sang vai Điều phối và để lại một file rỗng trỏ vào lệnh không có trong máy. **File rỗng còn chủ và file rỗng mất chủ trông y hệt nhau** — không ai phát hiện được.
+
+- **`index.md` thành BẢN ĐỒ, và đây là nửa còn lại của cú cắt.** Nỗi lo cũ vẫn thật — không có chỗ đúng thì nội dung bị nhét bừa vào trang khác. Nhưng thuốc là bản đồ chứ không phải vỏ rỗng: mục lục nay liệt kê **26 trang kể cả trang chưa có**, mỗi dòng kèm cột **Ai lấp**. Một dòng nói rõ chủ của nó là ai; một file rỗng thì không nói được gì. Một file thay cho mười hai.
+
+- **`templates/` chia theo vai.** Nền giữ 10 khuôn + `index` + `log`. 12 khuôn còn lại chuyển sang `khuon-cua-vai/` chờ về với vai sở hữu: 7 cái của Content, rồi Điều phối · Bán hàng · Chăm sóc · Nghiên cứu · Thiết kế mỗi vai một ít.
+
+- **Bốn khuôn không vai nào đọc** — `expertise` · `people/` · `projects/` · `learnings/` — để riêng ở `chua-co-vai/`, **không nhét bừa vào một vai cho gọn**. Nhét vào vai không dùng là dựng một trang rỗng mãi mãi, đúng thứ vừa gỡ.
+
+- **Lời chốt của `/onboard` viết lại.** Trước: kể tên năm trang còn trống. Nay: *"xong nền — cài vai nào thì vai đó tự dựng kho của nó"*, và **cấm kể tên trang chưa có** — người mới nghe xong sẽ tưởng mình đang thiếu rồi đi lấp bằng tay, mà lấp bằng tay là đi vòng qua đúng cái vai biết hỏi cho đúng.
+
+---
+
 ## v3.0 — 2026-09-07
 
 ⚠️ **Bản này GỠ BỎ ba lệnh.** Đọc trước khi `git pull`.

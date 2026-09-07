@@ -1,59 +1,77 @@
 # Bộ Não Thứ 2 — Mục lục
 
-> Cập nhật: [YYYY-MM-DD] · [số] trang
-> Mọi trang đều nằm trong `wiki/`. Trang nào chưa dựng thì ghi rõ vì sao, đừng xoá khỏi bảng.
+> Cập nhật: [YYYY-MM-DD] · [số] trang đã có
+>
+> ⚡ **Bảng này liệt kê cả trang CHƯA CÓ, và đó là việc chính của nó.** Cột *Ai lấp* nói rõ chủ của từng trang. Trang chưa có mà không nằm trong bảng thì nội dung của nó sẽ bị nhét bừa vào trang khác — bộ não loạn từ tuần thứ ba.
+>
+> 🚫 **Đừng xoá dòng nào khỏi bảng, kể cả trang bạn không định làm.** Và **đừng tự tạo file rỗng** cho những dòng chưa có: một dòng ở đây nói rõ ai lấp, còn một file rỗng thì trông y hệt file đã mất chủ.
 
 ## 🧭 Đọc trước
 
-| Trang | Mô tả |
-|---|---|
-| [[about-me]] | Hồ sơ gốc — danh tính, câu chuyện, chân dung tổng thể |
-| [[ai-operating-preferences]] | ⚡ Cách làm việc với tôi — đọc đầu mỗi phiên |
-| [[goals]] | 90 ngày · 1–3 năm · nút thắt |
+| Trang | Mô tả | Ai lấp |
+|---|---|---|
+| [[ai-operating-preferences]] | ⚡ Cách làm việc với tôi — đọc đầu mỗi phiên | ✅ nền |
+| [[about-me]] | Hồ sơ gốc — danh tính, câu chuyện, chân dung tổng thể | ✅ nền |
+| [[goals]] | 90 ngày · 1–3 năm · nút thắt | ✅ nền |
 
-## 🎯 Định vị
+## 🎭 Chân dung — không skill nào đọc, nhưng thiếu thì bộ não không phải của ai
 
-| Trang | Mô tả |
-|---|---|
-| [[values-and-principles]] | Nguyên tắc không bao giờ phá |
-| [[contrarian-beliefs]] | Niềm tin trái chiều |
-| [[decision-style]] | Cách ra quyết định, nỗi sợ lớn nhất |
-| [[voice-profile]] | Giọng văn *(cần ≥10 bài thật)* |
+| Trang | Mô tả | Ai lấp |
+|---|---|---|
+| [[values-and-principles]] | Nguyên tắc không bao giờ phá | ✅ nền |
+| [[contrarian-beliefs]] | Niềm tin trái chiều | ✅ nền |
+| [[decision-style]] | Cách ra quyết định, nỗi sợ lớn nhất | ✅ nền |
+| [[network]] | 5–10 người quan trọng nhất | ✅ nền |
 
-## 💼 Kinh doanh
+## 💼 Kinh doanh — từ hai vai trở lên cùng đọc
 
-| Trang | Mô tả |
-|---|---|
-| [[offer-ladder]] | Bán gì, cho ai, giá bao nhiêu |
-| [[target-customer]] | Chân dung khách lý tưởng |
-| [[customers]] | Khách thật + tình trạng |
-| [[customer-wins]] | Kết quả khách đạt được |
-| [[competitors]] | Đối thủ |
+| Trang | Mô tả | Ai lấp |
+|---|---|---|
+| [[target-customer]] | Chân dung khách lý tưởng — **5 vai đọc, nhiều nhất kho** | ✅ nền |
+| [[offer-ladder]] | Bán gì, cho ai, giá bao nhiêu — 3 vai đọc | ✅ nền |
+| [[systems-and-stack]] | Công cụ, nếp ngày, nguồn lực đang có | ✅ nền |
 
-## 🔧 Vận hành
+## ✍️ Chất liệu viết — vai Content dựng lúc cài
 
-| Trang | Mô tả |
-|---|---|
-| [[systems-and-stack]] | Công cụ, nếp ngày, nguồn lực |
-| [[expertise]] | Lĩnh vực chuyên môn |
-| [[network]] | Người quan trọng |
+> Không trang nào ở đây nạp được bằng trí nhớ, và không trang nào dựng nổi ngày đầu. `voice-profile` cần 10–20 bài đã đăng thật.
 
-## 📚 Kho *(lớn dần theo thời gian)*
+| Trang | Mô tả | Ai lấp |
+|---|---|---|
+| [[voice-profile]] | Giọng văn — rút từ bài thật, không hỏi suông | ⬜ vai Content |
+| [[experiences-library]] | Kho câu chuyện thật của tôi | ⬜ vai Content |
+| [[customer-wins]] | Kết quả khách đạt được + lời chứng thực | ⬜ vai Content |
+| [[quoted-authority]] | Trích dẫn tác giả / nghiên cứu, kèm nguồn | ⬜ vai Content |
+| [[hook-library]] | Hook đã dùng + kết quả thật | ⬜ vai Content |
+| [[content-library]] | Bài đã đăng | ⬜ vai Content |
+| [[audience-insights]] | Lời khán giả nói, nguyên văn | ⬜ vai Content |
+| [[video-production-setup]] | Nguồn lực quay thật — máy, mic, đèn, bối cảnh | ⬜ vai Content |
+| `models/` | Hình mẫu đang học — mỗi người 1 trang | ⬜ vai Content |
 
-| Trang | Mô tả |
-|---|---|
-| [[experiences-library]] | Câu chuyện thật của tôi |
-| [[audience-insights]] | Lời khán giả nói, nguyên văn |
-| [[content-library]] | Bài đã đăng |
-| [[hook-library]] | Hook đã dùng + kết quả |
-| [[business-metrics]] | Số thật hằng tháng |
+## 🎛️ Mục tiêu & kế hoạch — vai Điều phối dựng lúc cài
+
+| Trang | Mô tả | Ai lấp |
+|---|---|---|
+| [[banh-xe-cuoc-doi]] | Chấm 8 khía cạnh → kế hoạch dài/ngắn hạn | ⬜ vai Điều phối |
+| [[nut-that]] | Chỗ tắc từng giai đoạn, từ bài khám | ⬜ vai Điều phối |
+| [[nhip-thang]] | Tháng này chốt việc gì, nghiệm thu bằng số nào | ⬜ vai Điều phối |
+| [[business-metrics]] | Số thật hằng tháng | ⬜ vai Điều phối |
+
+## 💰 Bán & chăm — vai Bán hàng / Chăm sóc dựng lúc cài
+
+| Trang | Mô tả | Ai lấp |
+|---|---|---|
+| [[positioning]] | Vì sao chọn tôi chứ không phải người khác | ⬜ vai Bán hàng |
+| [[objections-library]] | Khách hay phản đối gì, trả lời ra sao | ⬜ vai Bán hàng |
+| [[customers]] | Khách thật + tình trạng *(đọc `reference/luat-du-lieu-nhay-cam.md` trước)* | ⬜ vai Chăm sóc |
+| [[competitors]] | Đối thủ, điểm yếu của họ | ⬜ vai Nghiên cứu |
 
 ## 📁 Thư mục
 
-| Thư mục | Chứa gì |
-|---|---|
-| `models/` | Hình mẫu đang học |
-| `people/` | Người quan trọng — mỗi người 1 trang |
-| `projects/` | Dự án — nhật ký quyết định |
-| `learnings/` | Học được từ sách/khoá/người khác |
-| `raw/` | ⛔ Nguồn gốc bất biến — không sửa |
+| Thư mục | Chứa gì | Ai tạo |
+|---|---|---|
+| `raw/` | ⛔ Nguồn gốc bất biến — không bao giờ sửa | ✅ nền |
+| `learnings/` · `people/` · `projects/` · `teachings/` | Học được từ sách/khoá · người · dự án · bài dạy | ⬜ vai nào cần thì vai đó tạo |
+
+---
+
+⚠️ **Trang chưa có mà bạn cần gấp:** đừng tự tạo file rồi điền tay. Cài vai sở hữu nó — vai đó biết khuôn đúng và biết hỏi gì để lấp. Điền tay là đi vòng qua đúng cái phần biết hỏi cho đúng.

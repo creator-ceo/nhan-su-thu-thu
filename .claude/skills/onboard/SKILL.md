@@ -1,6 +1,6 @@
 ---
 name: onboard
-description: Dựng bộ não thứ 2 lần đầu — Giai đoạn 0 thu tài liệu có sẵn, phỏng vấn lấp chỗ trống, rồi dựng wiki theo 2 vòng (11 trang neo · file rỗng có khung). Chất liệu viết — giọng văn, kho chuyện, kết quả khách — KHÔNG dựng ở đây; vai content nạp sau bằng /viet-content. Dùng khi người dùng vừa cài bộ khung và nói "bắt đầu", "start", "tạo bộ não thứ 2", hoặc gõ /onboard.
+description: Dựng bộ não thứ 2 lần đầu — thu tài liệu có sẵn, đọc và rút draft, phỏng vấn lấp chỗ trống, rồi dựng đúng 10 trang nền: chân dung người dùng cộng dữ liệu từ hai vai trở lên cùng đọc. KHÔNG dựng kho của vai nào khác, kể cả file rỗng — mỗi vai tự dựng kho của nó lúc cài. Dùng khi người dùng vừa cài bộ khung và nói "bắt đầu", "start", "tạo bộ não thứ 2", hoặc gõ /onboard.
 ---
 
 # Dựng bộ não thứ 2 — 4 giai đoạn
@@ -74,31 +74,36 @@ Luật:
 
 ---
 
-## GIAI ĐOẠN 3 — Dựng wiki theo 2 vòng
+## GIAI ĐOẠN 3 — Dựng 10 trang, và KHÔNG dựng gì khác
 
 Dùng khung trong `templates/`, giữ nguyên heading, chỉ thay `[...]`. **Không bịa** — thiếu thì để nguyên placeholder hoặc ghi *"chưa có thông tin"*.
 
-**Vòng 1 — 11 trang neo, luôn tạo:**
-`about-me` · `goals` · `offer-ladder` · `target-customer` · `values-and-principles` · `contrarian-beliefs` · `ai-operating-preferences` · `systems-and-stack` · `decision-style` · `network` · `customers`
+### 10 trang, hai việc khác nhau
 
-**Vòng 2 — tạo file rỗng có khung, KHÔNG điền:**
-
-Hai nhóm, khác nhau ở chỗ *ai sẽ lấp*:
-
-| Nhóm | Trang | Ai lấp |
+| Nhóm | Trang | Vì sao nằm ở nền |
 |---|---|---|
-| Sinh ra từ vận hành | `audience-insights` · `business-metrics` · `content-library` · `hook-library` · `competitors` · `expertise` · `positioning` | chính người dùng, khi có dữ liệu thật |
-| **Chất liệu viết** | `voice-profile` · `experiences-library` · `customer-wins` · `quoted-authority` · `video-production-setup` | **vai content**, qua `/viet-content` |
+| **Chân dung** | `about-me` · `values-and-principles` · `contrarian-beliefs` · `decision-style` · `network` | Không skill nào đọc chúng. Chúng là thứ làm bộ não trả lời **như chính người dùng** khi họ ngồi nói chuyện với nó. Thiếu thì đây là kho tài liệu, không phải bộ não của ai |
+| **Dùng chung** | `target-customer` · `offer-ladder` · `goals` · `ai-operating-preferences` · `systems-and-stack` | Từ **hai vai trở lên** đọc. `target-customer` nhiều nhất: 5 vai. Để chúng nằm trong một vai thì cài vai khác là hụt |
 
-Kèm thư mục rỗng: `models/` `learnings/` `projects/` `people/`
+### 🚫 Tuyệt đối KHÔNG tạo file rỗng cho vai khác
 
-Mỗi file nhóm trên mở đầu đúng một dòng: `> Chưa có dữ liệu. Trang này sinh ra từ [việc X] — không điền bằng trí nhớ.`
+Không dựng `voice-profile`, `experiences-library`, `customer-wins`, `hook-library`, `content-library`, `models/`, `business-metrics`, `positioning`… **kể cả file rỗng có khung.** Không tạo thư mục `models/` `people/` `projects/` `learnings/`.
 
-Mỗi file nhóm dưới mở đầu đúng một dòng: `> Chưa có dữ liệu. Trang này do vai content nạp — chạy /viet-content, nó sẽ hỏi đúng thứ cần.`
+Ba lý do, cái thứ hai là cái nặng nhất:
 
-⚡ **Vẫn tạo cả hai nhóm dù rỗng**, kể cả nhóm không phải việc của onboard. Lý do không đổi: không có chỗ đúng thì nội dung bị nhét bừa vào trang khác, và bộ não loạn từ tuần thứ ba. Cái đổi là **ai đi lấp**, không phải chỗ để lấp.
+1. **Nền không dựng nổi chúng.** `voice-profile` cần 10–20 bài đã đăng thật; `customer-wins` cần khách thật; `business-metrics` cần số thật. Hỏi ngày đầu thì người ta nộp qua loa cho xong, hoặc dừng lại đi tìm rồi không quay lại.
+2. **Vỏ rỗng không giúp được vai nào, vì chính vai đó coi nó ngang bằng không có.** Cửa vào của vai Content đếm file *"tồn tại **VÀ có nội dung thật** — không phải dòng 'chưa có dữ liệu'"*. Tạo sẵn vỏ là làm một việc mà người thụ hưởng duy nhất bỏ qua.
+3. **Vỏ rỗng thối rữa thành con trỏ chết, và thối im lặng.** Đo thật: `nut-that.md` từng được dựng sẵn kèm dòng *"trang này sinh ra từ việc X"* — rồi việc X chuyển sang vai khác, để lại một file rỗng trỏ vào lệnh không có trong máy. **File rỗng còn chủ và file rỗng mất chủ trông y hệt nhau**, nên không ai phát hiện được.
 
-🚫 **Đừng dựng `voice-profile` bằng cách hỏi suông** — cái người ta *nghĩ* mình viết thường khác hẳn cái họ *thật sự* viết. Trang này chỉ dựng được từ bài thật đã đăng, và đó là việc của vai content.
+⚡ **Vai nào cần trang nào thì vai đó dựng, lúc cài.** Nó biết khuôn đúng của trang đó, nó biết hỏi gì để lấp, và nó chỉ tồn tại khi người dùng thật sự cần tới.
+
+### Chỗ đúng để đặt vẫn phải có — nhưng là MỘT DÒNG, không phải một file
+
+Nỗi lo cũ vẫn thật: không có chỗ đúng thì nội dung bị nhét bừa vào trang khác, và bộ não loạn từ tuần thứ ba. Thuốc là **bản đồ**, không phải vỏ rỗng.
+
+Ghi `index.md` theo khuôn `templates/index.md` — nó liệt kê **cả trang chưa có**, mỗi dòng kèm cột **ai lấp**. Một dòng trong bảng nói rõ chủ của nó là ai; một file rỗng thì không nói được gì.
+
+Cộng `log.md` rỗng và thư mục `raw/`. **Hết.**
 
 ---
 
@@ -109,7 +114,13 @@ Mỗi file nhóm dưới mở đầu đúng một dòng: `> Chưa có dữ liệ
 3. Append `log.md`.
 4. Báo người dùng đã dựng được gì, trang nào còn trống và vì sao.
 5. ⚡ **Nhắc chạy Việc 6** — skill `kiem-chung`, trên **đoạn chat mới, project mới**. Chưa chạy bài đó thì chưa biết bộ não có lưu thật hay chỉ đang nằm trong trí nhớ của phiên này.
-6. **Nói rõ việc tiếp theo là gì.** Bộ não giờ có nền nhưng **chưa có chất liệu viết** — năm trang ở nhóm dưới của Vòng 2 còn trống theo đúng thiết kế. Ai muốn dùng vai content thì chạy `/viet-content`, nó tự kiểm kho và hỏi đúng thứ còn thiếu. Đừng để người dùng tự đoán ra điều này.
+6. **Nói rõ việc tiếp theo là gì, và nói bằng lời của người dùng.** Bộ não giờ có **nền**, chưa có ai làm việc trên nền đó. Nói đúng ba ý:
+
+   > *"Xong nền. Giờ bộ não biết bạn là ai, bán gì, cho ai, và làm việc với bạn kiểu nào.*
+   > *Nhưng nó chưa biết viết bài, chưa biết soi chỗ tắc, chưa biết chốt việc của tháng — mấy cái đó là **vai**, cài rời.*
+   > *Cài vai nào thì vai đó tự dựng kho của nó và hỏi bạn đúng thứ nó cần."*
+
+   🚫 **Đừng liệt kê tên mấy trang chưa có** (`voice-profile`, `hook-library`…). Người mới nghe xong sẽ tưởng mình đang thiếu và đi lấp bằng tay — mà lấp bằng tay là đi vòng qua đúng cái vai biết hỏi cho đúng. Nói *"cài vai nào thì vai đó lo"*, hết.
 
 ---
 

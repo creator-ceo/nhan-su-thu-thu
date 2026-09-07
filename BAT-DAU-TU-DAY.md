@@ -59,28 +59,31 @@ AI sẽ hỏi **từng câu một**. Trả lời thoải mái, sai cũng đượ
 
 Tick khi trang tương ứng đã có nội dung thật, không còn `[ngoặc vuông]`.
 
-**Vòng 1 — 11 trang neo** *(bắt buộc)*
+**Chân dung — thiếu thì đây không phải bộ não của bạn**
 
 - [ ] `about-me.md` — giới thiệu bản thân + timeline
-- [ ] `goals.md` — mục tiêu · mong muốn · **nút thắt lớn nhất**
-- [ ] `offer-ladder.md` — bán gì, cho ai, giá bao nhiêu
-- [ ] `target-customer.md` — khách sợ gì, khao khát gì, phản đối gì
 - [ ] `values-and-principles.md` — nguyên tắc không bao giờ phá
 - [ ] `contrarian-beliefs.md` — niềm tin trái chiều
-- [ ] `ai-operating-preferences.md` — xưng hô · khi nào phải hỏi · **hard don'ts**
-- [ ] `systems-and-stack.md` — công cụ, nếp ngày, **nguồn lực đang có**
 - [ ] `decision-style.md` — quyết bằng gì, sợ gì nhất
 - [ ] `network.md` — 5–10 người quan trọng
-- [ ] `customers.md` — danh sách khách + tình trạng *(đọc `reference/luat-du-lieu-nhay-cam.md` trước)*
 
-**Vòng 2 — file rỗng có khung, KHÔNG điền lúc này**
+**Dùng chung — từ 2 vai A.I trở lên cùng đọc**
 
-- [ ] Đã tạo sẵn *(nhóm A, bạn lấp dần khi có số thật)*: `audience-insights` · `business-metrics` · `content-library` · `hook-library` · `competitors` · `expertise` · thư mục `models/` `learnings/` `projects/` `people/`
-- [ ] Đã tạo sẵn *(nhóm B, **vai content** lấp sau)*: `voice-profile` · `experiences-library` · `customer-wins` · `quoted-authority` · `video-production-setup`
+- [ ] `target-customer.md` — khách sợ gì, khao khát gì, phản đối gì *(5 vai đọc, nhiều nhất kho)*
+- [ ] `offer-ladder.md` — bán gì, cho ai, giá bao nhiêu
+- [ ] `goals.md` — mục tiêu · mong muốn · **nút thắt lớn nhất**
+- [ ] `ai-operating-preferences.md` — xưng hô · khi nào phải hỏi · **hard don'ts**
+- [ ] `systems-and-stack.md` — công cụ, nếp ngày, **nguồn lực đang có**
 
-> Nhóm A sinh ra từ vận hành, không nạp bằng trí nhớ. Tạo sẵn chỗ để sau này có gì thì bỏ đúng chỗ.
+**Và `index.md` — bản đồ, quan trọng hơn nó trông**
+
+- [ ] `index.md` liệt kê **cả trang chưa có**, mỗi dòng kèm cột *Ai lấp*
+
+> ⚡ **Hết. Nền chỉ dựng 10 trang này.**
 >
-> ⚡ **Nhóm B trống là ĐÚNG THIẾT KẾ, không phải làm dở** *(đổi từ v2.6)*. Đó là chất liệu để viết — giọng văn, kho chuyện, kết quả khách. Muốn lấp thì chạy `/viet-content`, nó tự kiểm kho và hỏi đúng thứ còn thiếu. Cần 5–10 bài bạn đã đăng thật để dựng được hồ sơ giọng.
+> `voice-profile`, `hook-library`, `customer-wins`, `business-metrics`, `positioning`… **không nằm ở đây, và cũng không được tạo sẵn dưới dạng file rỗng.** Chúng thuộc về **vai** — cài vai nào thì vai đó dựng kho của nó và hỏi bạn đúng thứ nó cần.
+>
+> 🚫 **Đừng tự tạo mấy trang đó rồi điền tay.** Vai sở hữu biết khuôn đúng và biết hỏi gì để lấp; điền tay là đi vòng qua đúng cái phần biết hỏi cho đúng. Cần chúng thì cài vai, đừng lấp hộ.
 
 ---
 

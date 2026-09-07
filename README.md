@@ -4,7 +4,7 @@
 
 Ném thư mục này vào một công cụ AI bậc 2, nhắn *"bắt đầu"*, trả lời phỏng vấn — bạn có một bộ não thứ 2 chạy được thật trong 5–10 tiếng.
 
-> **Phiên bản:** `v3.0` · 2026-09-07 — xem [CHANGELOG.md](CHANGELOG.md)
+> **Phiên bản:** `v3.1` · 2026-09-07 — xem [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -88,14 +88,20 @@ AI sẽ tạo ra một thư mục `SecondBrain/` ngay cạnh các file này:
 SecondBrain/
   raw/          nguồn gốc — bài viết cũ, transcript, ghi chép bạn thả vào
                 ⛔ AI KHÔNG BAO GIỜ được sửa thư mục này
-  wiki/         các trang AI viết ra, nối nhau bằng [[liên kết]]
-    models/     hình mẫu bạn đang học
-    people/     người quan trọng
-    projects/   dự án
-    learnings/  thứ học được từ sách/khoá/người khác
-  index.md      mục lục
+  wiki/         10 trang AI viết ra, nối nhau bằng [[liên kết]]
+                  chân dung:  about-me · values-and-principles · contrarian-beliefs
+                              decision-style · network
+                  dùng chung: target-customer · offer-ladder · goals
+                              ai-operating-preferences · systems-and-stack
+  index.md      bản đồ — liệt kê cả trang CHƯA có, kèm cột "ai lấp"
   log.md        nhật ký — mỗi lần nạp một dòng, chỉ thêm không xoá
 ```
+
+⚡ **Đúng 10 trang, và thư mục `wiki/` sạch trơn ngoài chúng.** Không có file rỗng nào chờ sẵn.
+
+Cài thêm một vai — Content chẳng hạn — thì **vai đó** dựng kho của nó: `voice-profile`, `hook-library`, `models/`… Vai nào chưa cài thì trang của nó chưa tồn tại, và `index.md` nói rõ ai là chủ của nó.
+
+> **Vì sao không tạo sẵn file rỗng cho gọn:** một file rỗng còn chủ và một file rỗng đã mất chủ **trông y hệt nhau**. Đã mắc thật: `nut-that.md` được dựng sẵn kèm dòng *"trang này sinh ra từ việc X"*, rồi việc X chuyển sang vai khác — để lại một file trỏ vào lệnh không có trong máy, mà không có gì báo. Một dòng trong `index.md` thì luôn nói được chủ của nó là ai.
 
 Đây là mẫu **LLM Wiki** của Andrej Karpathy (thành viên sáng lập OpenAI). Khác biệt nằm ở một chỗ:
 
@@ -121,9 +127,7 @@ START-HERE.txt               hướng dẫn 1 phút
   nap-kho/                   đường ghi DUY NHẤT vào wiki
   kiem-chung/                Việc 6 — bài test bộ não đã lưu thật chưa
 
-templates/                   khung 11 trang neo + vòng 2
-  vong2/                     trang tạo rỗng, không điền (vận hành + chất liệu viết)
-  khung-lap-lai/             khung cho models · people · projects · learnings
+templates/                   khung 10 trang nền + index + log
 
 reference/
   huong-dan-cai-dat.md       Việc 1 + Việc 5 + bảng tra lỗi

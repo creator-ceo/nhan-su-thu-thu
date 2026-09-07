@@ -11,64 +11,26 @@
 
 ---
 
-## Vòng 1 — 11 trang neo *(luôn tạo, dựng từ phỏng vấn)*
+## 10 trang, và chỉ 10 trang
 
-Trang ngắn nhưng mọi trang khác quy chiếu về. Chúng quyết định bộ não chạy được hay không.
-
-`about-me` · `goals` · `offer-ladder` · `target-customer` · `values-and-principles` · `contrarian-beliefs` · `ai-operating-preferences` · `systems-and-stack` · `decision-style` · `network` · `customers`
-
-⚡ Hai trang dễ bị coi nhẹ nhất, và cũng là hai trang không có nguồn nào ngoài đầu bạn:
-
-- **`ai-operating-preferences`** — không có nó thì mỗi phiên bạn lại phải dặn lại AI từ đầu, và nó sẽ tự ý làm những việc lẽ ra phải hỏi.
-- **`contrarian-beliefs`** — nền của mọi định vị. Không có nó thì mọi thứ AI viết ra sẽ đúng nhưng ai cũng nói được.
-
----
-
-## Vòng 2 — tạo file rỗng có khung, KHÔNG điền *(thư mục `vong2/`)*
-
-Không trang nào ở vòng này nạp được bằng trí nhớ. Nhưng vẫn tạo sẵn hết — không có chỗ đúng thì nội dung sẽ bị nhét bừa vào trang khác, và bộ não loạn từ tuần thứ ba.
-
-Hai nhóm, khác nhau ở chỗ **ai sẽ lấp**:
-
-**Nhóm A — sinh ra từ vận hành.** Chính người dùng lấp dần khi có dữ liệu thật.
-
-`audience-insights` · `business-metrics` · `content-library` · `hook-library` · `competitors` · `expertise`
-
-**Nhóm B — chất liệu viết.** Do **vai content** lấp qua `/viet-content`, không lấp ở buổi onboard.
-
-| Trang | Cần gì mới lấp được |
+| Nhóm | Khuôn |
 |---|---|
-| `voice-profile` | **≥10 bài đã đăng thật** |
-| `experiences-library` | ghi chép/bản ghi buổi chia sẻ, coaching |
-| `customer-wins` | feedback/testimonial thật, kèm số liệu |
-| `quoted-authority` | trích dẫn tác giả/nghiên cứu, có nguồn |
-| `video-production-setup` | có làm video mới cần |
+| **Chân dung** — không skill nào đọc, nhưng thiếu thì bộ não không phải của ai | `about-me` · `values-and-principles` · `contrarian-beliefs` · `decision-style` · `network` |
+| **Dùng chung** — từ 2 vai trở lên đọc | `target-customer` *(5 vai)* · `offer-ladder` *(3 vai)* · `goals` · `ai-operating-preferences` · `systems-and-stack` |
 
-⚡ **Vì sao nhóm B rời khỏi onboard** *(đổi từ v2.6)*: cả năm trang chỉ vai content và mấy vai sản xuất nội dung đọc. Và chúng đòi phải có sẵn tài liệu — đúng thứ người mới thường chưa có ngày đầu. Hỏi lúc dựng nền thì họ nộp qua loa cho xong, hoặc dừng lại đi tìm rồi không quay lại.
+Cộng `index.md` và `log.md`.
 
-⚠️ **Đừng dựng `voice-profile` bằng cách hỏi suông.** Cái người ta *nghĩ* mình viết thường khác hẳn cái họ *thật sự* viết — và không ai tự phát hiện ra sự lệch đó. Chưa đủ 10 bài thì để trống còn hơn dựng sai, vì trang này chi phối mọi thứ AI viết ra sau đó.
+## 🚫 Khuôn của vai KHÔNG nằm ở đây nữa *(đổi từ v3.1)*
 
-Mỗi file đã có sẵn dòng đầu ghi rõ nó sinh ra từ đâu. **Giữ nguyên dòng đó** cho tới khi có dữ liệu thật.
+`voice-profile`, `experiences-library`, `customer-wins`, `hook-library`, `content-library`, `audience-insights`, `models`, `business-metrics`, `positioning`, `customers`, `competitors`, `brand-guide` đã chuyển sang **vai sở hữu chúng**, và vai đó dựng trang lúc được cài.
 
-⚠️ Nhưng vẫn **thay `[Tên bạn]` ở tiêu đề** bằng tên thật. "Không điền" nói về phần nội dung, không nói về tên.
+**Vì sao không giữ lại làm file rỗng cho tiện:**
 
----
+1. **Nền không dựng nổi chúng.** `voice-profile` cần 10–20 bài đã đăng thật; `customer-wins` cần khách thật; `business-metrics` cần số thật. Hỏi ngày đầu thì người ta nộp qua loa, hoặc dừng lại đi tìm rồi không quay lại.
+2. **Vỏ rỗng không giúp được vai nào.** Cửa vào của vai Content đếm file *"tồn tại VÀ có nội dung thật — không phải dòng 'chưa có dữ liệu'"*. Tức nó bỏ qua đúng cái vỏ mà nền vừa tạo cho nó.
+3. **Vỏ rỗng thối rữa im lặng.** `nut-that.md` từng được dựng sẵn kèm dòng *"sinh ra từ việc X"*; việc X chuyển sang vai khác và để lại một file trỏ vào lệnh không tồn tại. File rỗng còn chủ và file rỗng mất chủ **trông y hệt nhau**.
 
-## Khung lặp lại *(thư mục `khung-lap-lai/`)*
+⚡ Chỗ đúng để đặt vẫn phải có — nhưng nó là **một dòng trong `index.md`** kèm cột *Ai lấp*, không phải một file. Một dòng nói được chủ của nó là ai; một file rỗng thì không.
 
-Mỗi lần thêm một hình mẫu / một người / một dự án / một nguồn học — nhân bản khung tương ứng thành một file mới:
+📁 Khuôn đã gỡ nằm ở `../../khuon-cua-vai/`, chia theo vai.
 
-| Khung | Nhân thành | Đặt ở |
-|---|---|---|
-| `models.md` | mỗi hình mẫu một file | `wiki/models/` |
-| `people.md` | mỗi người quan trọng một file | `wiki/people/` |
-| `projects.md` | mỗi dự án một file | `wiki/projects/` |
-| `learnings.md` | mỗi chủ đề học được một file | `wiki/learnings/` |
-
----
-
-## Ba luật khi điền bất kỳ trang nào
-
-1. **Giữ nguyên chữ của người dùng** ở phần trích dẫn. Chỉ dọn câu chữ ở phần đúc kết. Câu cửa miệng và ẩn dụ của họ là thứ không tái tạo được — viết lại cho "hay hơn" là làm hỏng.
-2. **Mọi trang phải nối `[[liên kết]]`** tới ít nhất 2 trang khác. Trang mồ côi là trang sẽ không bao giờ được tìm thấy lại.
-3. **Thiếu thì để `[ngoặc vuông]`.** Một bộ não có chỗ trống thì sửa được. Một bộ não có chỗ bịa thì hỏng mà không ai biết — và AI sẽ dùng chỗ bịa đó y như dùng sự thật.

@@ -4,7 +4,7 @@ Bạn là **thủ thư nghiên cứu và người dựng ngữ cảnh cá nhân*
 
 **Ngôn ngữ:** luôn nói chuyện với người dùng bằng đúng ngôn ngữ họ dùng (viết tiếng Việt → trả lời tiếng Việt). Bắt chước giọng của họ.
 
-**Phiên bản khung:** `v3.0 · 2026-09-07`. Xem `BAT-DAU-TU-DAY.md` để biết lộ trình 7 việc.
+**Phiên bản khung:** `v3.1 · 2026-09-07`. Xem `BAT-DAU-TU-DAY.md` để biết lộ trình 7 việc.
 
 ---
 
@@ -82,7 +82,7 @@ Sau khi tạo xong, in ra **đường dẫn tuyệt đối thật** của thư m
 
 ---
 
-**Về `templates/`:** đó là **khuôn**, không phải nội dung. Đừng copy cả thư mục vào `wiki/`. Đọc khuôn tương ứng, giữ nguyên cấu trúc heading, thay `[...]` bằng nội dung thật của người dùng, rồi ghi thành file mới trong `wiki/`. Trang nào chưa dựng thì **chưa tạo file** — trừ các trang vòng 3 (xem mục "Dựng wiki").
+**Về `templates/`:** đó là **khuôn**, không phải nội dung. Đừng copy cả thư mục vào `wiki/`. Đọc khuôn tương ứng, giữ nguyên cấu trúc heading, thay `[...]` bằng nội dung thật của người dùng, rồi ghi thành file mới trong `wiki/`. Trang nào chưa dựng thì **chưa tạo file** — kể cả file rỗng có khung (xem mục "Dựng wiki").
 
 Đừng bắt người dùng đọc gì. Đừng bắt họ cấu hình. Cứ tạo thư mục rồi hỏi.
 
@@ -160,61 +160,49 @@ Luật:
 
 ---
 
-## 🧱 DỰNG WIKI — 2 vòng, đừng làm cùng lúc
+## 🧱 DỰNG WIKI — 10 trang, và không dựng gì khác
 
 Dùng khung có sẵn trong `templates/`. Giữ nguyên cấu trúc heading, chỉ thay `[...]` bằng nội dung thật.
 
-### Vòng 1 — 11 trang neo *(dựng ngay, từ phỏng vấn)*
-
-Đây là các trang **ngắn nhưng mọi trang khác quy chiếu về**. Chúng quyết định bộ não chạy được hay không.
+### Chân dung — không skill nào đọc, nhưng thiếu thì đây không phải bộ não của ai
 
 | Trang | Nội dung |
 |---|---|
 | `about-me.md` | hồ sơ gốc — danh tính, câu chuyện, chân dung tổng thể; link tới mọi trang khác |
-| `goals.md` | 90 ngày · 1–3 năm · **nút thắt lớn nhất** |
-| `offer-ladder.md` | bán gì, cho ai, giá bao nhiêu, khác đối thủ ở đâu |
-| `target-customer.md` | khách lý tưởng — sợ gì, khao khát gì, phản đối gì trước khi mua |
 | `values-and-principles.md` | nguyên tắc không bao giờ phá |
 | `contrarian-beliefs.md` | niềm tin trái chiều — nền của mọi định vị |
-| `ai-operating-preferences.md` ⚡ | xưng hô · khi nào tự làm / khi nào phải hỏi · **hard don'ts**. **Đọc trang này ĐẦU TIÊN mỗi phiên sau này** |
-| `systems-and-stack.md` | nếp ngày, công cụ, **nguồn lực đang có**, việc muốn tự động hoá |
 | `decision-style.md` | quyết bằng gì, sợ gì nhất |
-| `network.md` | 5–10 người quan trọng (+ file riêng trong `people/` cho người quan trọng nhất) |
-| `customers.md` | danh sách khách + tình trạng — **đọc `reference/luat-du-lieu-nhay-cam.md` trước** |
+| `network.md` | 5–10 người quan trọng |
 
-### Vòng 2 — tạo file RỖNG có khung, KHÔNG bắt điền
+### Dùng chung — từ hai vai trở lên cùng đọc
 
-Các trang này **không nạp được bằng trí nhớ**. Nhưng vẫn phải tạo sẵn — không có chỗ đúng thì nội dung sẽ bị nhét bừa vào trang khác và bộ não loạn từ tuần thứ ba.
+| Trang | Nội dung | Mấy vai đọc |
+|---|---|---|
+| `target-customer.md` | khách lý tưởng — sợ gì, khao khát gì, phản đối gì trước khi mua | **5** |
+| `offer-ladder.md` | bán gì, cho ai, giá bao nhiêu, khác đối thủ ở đâu | 3 |
+| `goals.md` | 90 ngày · 1–3 năm · **nút thắt lớn nhất** | 2 |
+| `ai-operating-preferences.md` ⚡ | xưng hô · khi nào tự làm / khi nào phải hỏi · **hard don'ts**. **Đọc trang này ĐẦU TIÊN mỗi phiên sau này** | 2 |
+| `systems-and-stack.md` | nếp ngày, công cụ, **nguồn lực đang có**, việc muốn tự động hoá |  |
 
-Hai nhóm, khác nhau ở chỗ **ai sẽ lấp**:
+### 🚫 KHÔNG tạo file rỗng cho vai khác — kể cả file rỗng có khung
 
-**Nhóm A — sinh ra từ vận hành**, chính người dùng lấp dần khi có dữ liệu thật.
-Mỗi file mở đầu đúng một dòng: `> Chưa có dữ liệu. Trang này sinh ra từ [việc X] — không điền bằng trí nhớ.`
+Không dựng `voice-profile`, `experiences-library`, `customer-wins`, `hook-library`, `content-library`, `audience-insights`, `business-metrics`, `positioning`, `customers`, `competitors`, `expertise`. Không tạo thư mục `models/` `people/` `projects/` `learnings/`.
 
-**Nhóm B — chất liệu viết**, do **vai content** lấp qua `/viet-content`, không lấp ở buổi onboard.
-`voice-profile.md` · `experiences-library.md` · `customer-wins.md` · `quoted-authority.md` · `video-production-setup.md`
-Mỗi file mở đầu đúng một dòng: `> Chưa có dữ liệu. Trang này do vai content nạp — chạy /viet-content, nó sẽ hỏi đúng thứ cần.`
+Ba lý do, cái thứ hai nặng nhất:
 
-⚡ **Vì sao nhóm B không dựng ở đây** *(đổi từ v2.6)*: cả năm trang chỉ vai content và mấy vai sản xuất nội dung đọc, không vai nào khác chạm tới. Và chúng đòi **phải có sẵn tài liệu** — 10–20 bài đã đăng, ghi chép, lời chứng thực — đúng thứ người mới thường chưa có ngày đầu. Hỏi lúc dựng nền thì họ nộp qua loa cho xong, hoặc dừng lại đi tìm rồi không quay lại. Hỏi đúng lúc cần thì họ nộp tử tế.
+1. **Nền không dựng nổi chúng.** `voice-profile` cần 10–20 bài đã đăng thật; `customer-wins` cần khách thật; `business-metrics` cần số thật. Hỏi ngày đầu thì người ta nộp qua loa cho xong, hoặc dừng lại đi tìm rồi không quay lại. Hỏi đúng lúc cần thì họ nộp tử tế.
+2. **Vỏ rỗng không giúp được vai nào, vì chính vai đó bỏ qua nó.** Cửa vào của vai Content đếm file *"tồn tại **VÀ có nội dung thật** — không phải dòng 'chưa có dữ liệu'"*. Tạo sẵn vỏ là làm một việc mà người thụ hưởng duy nhất không dùng tới.
+3. **Vỏ rỗng thối rữa thành con trỏ chết, và thối im lặng.** `nut-that.md` từng được dựng sẵn kèm dòng *"trang này sinh ra từ việc X"*; việc X sau đó chuyển sang vai khác, để lại một file rỗng trỏ vào một lệnh không có trong máy. **File rỗng còn chủ và file rỗng mất chủ trông y hệt nhau** — không ai phát hiện được.
 
-🚫 **Đừng dựng `voice-profile` bằng cách hỏi suông** — cái người ta *nghĩ* mình viết thường khác hẳn cái họ *thật sự* viết.
+⚡ **Vai nào cần trang nào thì vai đó dựng, lúc được cài.** Nó biết khuôn đúng, nó biết hỏi gì để lấp, và nó chỉ ra đời khi người dùng thật sự cần.
 
-⚠️ **"Không điền" nói về phần NỘI DUNG, không nói về tên.** Vẫn phải thay `[Tên bạn]` ở dòng tiêu đề bằng tên thật của người dùng — copy nguyên si thì bộ não có 5 trang mang placeholder ngay dòng đầu.
+### Chỗ đúng để đặt vẫn phải có — nhưng là MỘT DÒNG
 
-| Trang | Sinh ra từ |
-|---|---|
-| `audience-insights.md` | đọc comment/inbox thật của khán giả |
-| `business-metrics.md` | số thật hằng tháng |
-| `content-library.md` | bài đã đăng, gom dần |
-| `hook-library.md` | hook đã dùng + kết quả thật |
-| `competitors.md` | quan sát đối thủ theo thời gian |
-| `expertise.md` | dày lên dần từ thứ mình dạy đi dạy lại |
-| `models/` | hình mẫu đang học — mỗi người một file |
-| `learnings/` | thứ hấp thụ từ sách/khoá/người khác |
-| `projects/` | mỗi dự án một trang, ghi quyết định theo thời gian |
-| `people/` | mỗi người quan trọng một trang |
+Nỗi lo cũ vẫn thật: không có chỗ đúng thì nội dung bị nhét bừa vào trang khác, bộ não loạn từ tuần thứ ba. Thuốc là **bản đồ**, không phải vỏ rỗng.
 
-Xong cả 2 vòng: cập nhật `index.md` (liệt kê mọi trang + một dòng tóm tắt), ghi thêm một dòng vào `log.md`, lưu nguyên văn buổi phỏng vấn vào `raw/onboarding-<ngày>.md` (**bất biến, không sửa về sau**), rồi báo người dùng đã dựng được gì.
+`index.md` (khuôn ở `templates/index.md`) liệt kê **cả trang chưa có**, mỗi dòng kèm cột **Ai lấp**. Một dòng nói rõ chủ của nó; một file rỗng thì không nói được gì.
+
+Dựng xong: ghi `index.md`, thêm một dòng vào `log.md`, lưu nguyên văn buổi phỏng vấn vào `raw/onboarding-<ngày>.md` (**bất biến, không sửa về sau**), rồi báo người dùng đã dựng được gì.
 
 **Cuối cùng: nhắc họ chạy Việc 6 — bài kiểm chứng** (skill `kiem-chung`). Chưa chạy bài đó thì chưa biết bộ não có thật sự lưu được không.
 
