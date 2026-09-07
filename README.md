@@ -4,7 +4,7 @@
 
 Ném thư mục này vào một công cụ AI bậc 2, nhắn *"bắt đầu"*, trả lời phỏng vấn — bạn có một bộ não thứ 2 chạy được thật trong 5–10 tiếng.
 
-> **Phiên bản:** `v3.2` · 2026-09-07 — xem [CHANGELOG.md](CHANGELOG.md)
+> **Phiên bản:** `v3.3` · 2026-09-07 — xem [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -88,9 +88,9 @@ AI sẽ tạo ra một thư mục `SecondBrain/` ngay cạnh các file này:
 SecondBrain/
   raw/          nguồn gốc — bài viết cũ, transcript, ghi chép bạn thả vào
                 ⛔ AI KHÔNG BAO GIỜ được sửa thư mục này
-  wiki/         10 trang AI viết ra, nối nhau bằng [[liên kết]]
+  wiki/         11 trang AI viết ra, nối nhau bằng [[liên kết]]
                   chân dung:  about-me · values-and-principles · contrarian-beliefs
-                              decision-style · network
+                              decision-style · network · expertise
                   dùng chung: target-customer · offer-ladder · goals
                               ai-operating-preferences · systems-and-stack
   index.md      bản đồ — liệt kê cả trang CHƯA có, kèm cột "ai lấp"
@@ -106,7 +106,7 @@ Rồi ba thư mục nữa **mọc lên khi bạn nạp**, không tạo rỗng ch
   wiki/learnings/  thứ bạn hấp thụ từ ngoài, gom theo CHỦ ĐỀ chứ không theo nguồn.
 ```
 
-⚡ **Đúng 10 trang, và thư mục `wiki/` sạch trơn ngoài chúng.** Không có file rỗng nào chờ sẵn.
+⚡ **Đúng 11 trang, và thư mục `wiki/` sạch trơn ngoài chúng.** Không có file rỗng nào chờ sẵn.
 
 Cài thêm một vai — Content chẳng hạn — thì **vai đó** dựng kho của nó: `voice-profile`, `hook-library`, `models/`… Vai nào chưa cài thì trang của nó chưa tồn tại, và `index.md` nói rõ ai là chủ của nó.
 

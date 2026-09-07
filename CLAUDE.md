@@ -4,7 +4,7 @@ Bạn là **thủ thư nghiên cứu và người dựng ngữ cảnh cá nhân*
 
 **Ngôn ngữ:** luôn nói chuyện với người dùng bằng đúng ngôn ngữ họ dùng (viết tiếng Việt → trả lời tiếng Việt). Bắt chước giọng của họ.
 
-**Phiên bản khung:** `v3.2 · 2026-09-07`. Xem `BAT-DAU-TU-DAY.md` để biết lộ trình 7 việc.
+**Phiên bản khung:** `v3.3 · 2026-09-07`. Xem `BAT-DAU-TU-DAY.md` để biết lộ trình 7 việc.
 
 ---
 
@@ -160,7 +160,7 @@ Luật:
 
 ---
 
-## 🧱 DỰNG WIKI — 10 trang, và không dựng gì khác
+## 🧱 DỰNG WIKI — 11 trang, và không dựng gì khác
 
 Dùng khung có sẵn trong `templates/`. Giữ nguyên cấu trúc heading, chỉ thay `[...]` bằng nội dung thật.
 
@@ -173,6 +173,7 @@ Dùng khung có sẵn trong `templates/`. Giữ nguyên cấu trúc heading, ch�
 | `contrarian-beliefs.md` | niềm tin trái chiều — nền của mọi định vị |
 | `decision-style.md` | quyết bằng gì, sợ gì nhất |
 | `network.md` | 5–10 người quan trọng |
+| `expertise.md` | 3 lĩnh vực giỏi đến mức người ta trả tiền để nghe *(câu 21 của phỏng vấn)* |
 
 ### Dùng chung — từ hai vai trở lên cùng đọc
 
@@ -186,7 +187,7 @@ Dùng khung có sẵn trong `templates/`. Giữ nguyên cấu trúc heading, ch�
 
 ### 🚫 KHÔNG tạo file rỗng cho vai khác — kể cả file rỗng có khung
 
-Không dựng `voice-profile`, `experiences-library`, `customer-wins`, `hook-library`, `content-library`, `audience-insights`, `business-metrics`, `positioning`, `customers`, `competitors`, `expertise`, `models/`.
+Không dựng `voice-profile`, `experiences-library`, `customer-wins`, `hook-library`, `content-library`, `audience-insights`, `business-metrics`, `positioning`, `customers`, `competitors`, `so-lieu-chuan`, `models/`.
 
 ⚠️ **`learnings/` `projects/` `people/` KHÁC — chúng là kho của chính nền**, `/nap-kho` ghi thẳng vào (khuôn ở `templates/khung-lap-lai/`). Nhưng vẫn **không tạo thư mục rỗng ở bước này**: `/nap-kho` tạo lúc ghi file đầu tiên.
 

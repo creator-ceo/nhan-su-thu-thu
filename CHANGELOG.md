@@ -4,6 +4,28 @@ Bộ khung này còn tiến hoá. Trang này ghi cái gì đổi và **vì sao**
 
 ---
 
+## v3.3 — 2026-09-07
+
+**`expertise` về nền (11 trang), và bộ số liệu chuẩn tách ra thành trang riêng của vai Content.**
+
+- **`expertise` quay lại nền.** v3.1 đẩy nó ra vì *"không vai nào đọc"* — nhưng nó là **chân dung**, cùng loại với `about-me`, và dựng được ngay từ câu 21 của phỏng vấn (*"3 lĩnh vực bạn giỏi đến mức người ta trả tiền để nghe"*). Nền nay dựng **11 trang**.
+
+- **Tách bộ số liệu chuẩn ra khỏi `expertise`.** Trang `expertise` trong kho thật của Đoàn dài **154 dòng**, mà **chỉ 20 dòng đầu** là ba lĩnh vực chuyên môn. 130 dòng còn lại là một thứ khác hẳn: danh sách con số được phép nói ra, bốn luật chống thổi phồng, và bốn sự cố có thật.
+
+  Hai thứ này **đổi theo nhịp khác nhau** — ba lĩnh vực gần như không đổi, còn bộ số liệu dày lên mỗi lần có sự cố. Và trộn chung thì cái tên `expertise` **che mất phần quan trọng hơn**: 85% nội dung không phải expertise.
+
+  Nay bộ số liệu là `so-lieu-chuan.md`, thuộc **vai Content** *(khuôn ở đó, không ở nền)* — vì nó dựng được từ chính thứ vai Content đã hỏi: bài đã đăng, kết quả khách, lời chứng thực.
+
+- 🔴 **Vì sao phải tách: một chỗ hỏng im lặng đo được trong kho thật.** `/viet-content` của Đoàn đọc ~20 trang, **`expertise` không nằm trong đó**; Owner OS thì chỉ **1 trên 37** tính năng khai đọc nó. Luật vẫn tới được người viết — nhưng bằng **sáu bản sao** rải ở các trang khác.
+
+  Và bản sao thì lệch: ngày 20/08 hai luật mới được thêm vào nguồn, lan sang 3 trang — **trang duy nhất `/viet-content` đọc (`experiences-library`) là trang bị sót**, và nó vẫn nhắc con số mà luật mới sinh ra để gắn nhãn. Không có gì báo. Cùng đúng kiểu hỏng đã ghi ở v3.1: hai bản của một luật, không có gì buộc chúng khớp.
+
+- **Vai Content nay đọc `so-lieu-chuan` ở Bước 3 — bắt buộc, không ngoại lệ**, kèm bảng **ba kiểu dùng sai xếp theo độ khó bắt**: bịa số *(luật cũ bắt được)* · **số thật sai chủ** *(không phép kiểm nào bắt được — nó có thật, đọc trôi chảy, có nguồn)* · **tiếng vọng của chính kho** *(người dùng nhắc lại con số mà nguồn gốc chính là kho này, và tiếng vọng hay tam sao)*. Phép kiểm rẻ nhất: `grep` con số trước khi ghi, và **bản trong kho thắng**.
+
+- **`khuon-cua-vai/chua-co-vai/` biến mất** — không còn khuôn nào vô chủ.
+
+---
+
 ## v3.2 — 2026-09-07
 
 **Sửa một chỗ xếp sai của v3.1, và bổ sung `people/` vào `/nap-kho`.**

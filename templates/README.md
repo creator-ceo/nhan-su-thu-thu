@@ -11,11 +11,11 @@
 
 ---
 
-## 10 trang, và chỉ 10 trang
+## 11 trang, và chỉ 11 trang
 
 | Nhóm | Khuôn |
 |---|---|
-| **Chân dung** — không skill nào đọc, nhưng thiếu thì bộ não không phải của ai | `about-me` · `values-and-principles` · `contrarian-beliefs` · `decision-style` · `network` |
+| **Chân dung** — không skill nào đọc, nhưng thiếu thì bộ não không phải của ai | `about-me` · `values-and-principles` · `contrarian-beliefs` · `decision-style` · `network` · `expertise` |
 | **Dùng chung** — từ 2 vai trở lên đọc | `target-customer` *(5 vai)* · `offer-ladder` *(3 vai)* · `goals` · `ai-operating-preferences` · `systems-and-stack` |
 
 Cộng `index.md` và `log.md`.

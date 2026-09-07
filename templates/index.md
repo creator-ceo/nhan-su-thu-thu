@@ -22,6 +22,7 @@
 | [[contrarian-beliefs]] | Niềm tin trái chiều | ✅ nền |
 | [[decision-style]] | Cách ra quyết định, nỗi sợ lớn nhất | ✅ nền |
 | [[network]] | 5–10 người quan trọng nhất | ✅ nền |
+| [[expertise]] | 3 lĩnh vực bạn giỏi đến mức người ta trả tiền để nghe | ✅ nền |
 
 ## 💼 Kinh doanh — từ hai vai trở lên cùng đọc
 
@@ -45,6 +46,7 @@
 | [[content-library]] | Bài đã đăng | ⬜ vai Content |
 | [[audience-insights]] | Lời khán giả nói, nguyên văn | ⬜ vai Content |
 | [[video-production-setup]] | Nguồn lực quay thật — máy, mic, đèn, bối cảnh | ⬜ vai Content |
+| [[so-lieu-chuan]] | ⚡ **Nguồn duy nhất** cho mọi con số thành tích ra content — mỗi số kèm nhãn **ai sở hữu** | ⬜ vai Content |
 
 ## 🎛️ Mục tiêu & kế hoạch — vai Điều phối dựng lúc cài
 

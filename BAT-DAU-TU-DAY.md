@@ -66,6 +66,7 @@ Tick khi trang tương ứng đã có nội dung thật, không còn `[ngoặc v
 - [ ] `contrarian-beliefs.md` — niềm tin trái chiều
 - [ ] `decision-style.md` — quyết bằng gì, sợ gì nhất
 - [ ] `network.md` — 5–10 người quan trọng
+- [ ] `expertise.md` — 3 lĩnh vực bạn giỏi đến mức người ta trả tiền để nghe
 
 **Dùng chung — từ 2 vai A.I trở lên cùng đọc**
 
@@ -79,7 +80,7 @@ Tick khi trang tương ứng đã có nội dung thật, không còn `[ngoặc v
 
 - [ ] `index.md` liệt kê **cả trang chưa có**, mỗi dòng kèm cột *Ai lấp*
 
-> ⚡ **Hết. Nền chỉ dựng 10 trang này.**
+> ⚡ **Hết. Nền chỉ dựng 11 trang này.**
 >
 > `voice-profile`, `hook-library`, `customer-wins`, `business-metrics`, `positioning`… **không nằm ở đây, và cũng không được tạo sẵn dưới dạng file rỗng.** Chúng thuộc về **vai** — cài vai nào thì vai đó dựng kho của nó và hỏi bạn đúng thứ nó cần.
 >

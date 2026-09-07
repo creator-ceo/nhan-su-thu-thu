@@ -74,20 +74,20 @@ Luật:
 
 ---
 
-## GIAI ĐOẠN 3 — Dựng 10 trang, và KHÔNG dựng gì khác
+## GIAI ĐOẠN 3 — Dựng 11 trang, và KHÔNG dựng gì khác
 
 Dùng khung trong `templates/`, giữ nguyên heading, chỉ thay `[...]`. **Không bịa** — thiếu thì để nguyên placeholder hoặc ghi *"chưa có thông tin"*.
 
-### 10 trang, hai việc khác nhau
+### 11 trang, hai việc khác nhau
 
 | Nhóm | Trang | Vì sao nằm ở nền |
 |---|---|---|
-| **Chân dung** | `about-me` · `values-and-principles` · `contrarian-beliefs` · `decision-style` · `network` | Không skill nào đọc chúng. Chúng là thứ làm bộ não trả lời **như chính người dùng** khi họ ngồi nói chuyện với nó. Thiếu thì đây là kho tài liệu, không phải bộ não của ai |
+| **Chân dung** | `about-me` · `values-and-principles` · `contrarian-beliefs` · `decision-style` · `network` · `expertise` | Không skill nào đọc chúng. Chúng là thứ làm bộ não trả lời **như chính người dùng** khi họ ngồi nói chuyện với nó. Thiếu thì đây là kho tài liệu, không phải bộ não của ai |
 | **Dùng chung** | `target-customer` · `offer-ladder` · `goals` · `ai-operating-preferences` · `systems-and-stack` | Từ **hai vai trở lên** đọc. `target-customer` nhiều nhất: 5 vai. Để chúng nằm trong một vai thì cài vai khác là hụt |
 
 ### 🚫 Tuyệt đối KHÔNG tạo file rỗng cho vai khác
 
-Không dựng `voice-profile`, `experiences-library`, `customer-wins`, `hook-library`, `content-library`, `models/`, `business-metrics`, `positioning`… **kể cả file rỗng có khung.**
+Không dựng `voice-profile`, `experiences-library`, `customer-wins`, `hook-library`, `content-library`, `models/`, `business-metrics`, `positioning`, `so-lieu-chuan`… **kể cả file rỗng có khung.**
 
 ⚠️ **`learnings/` `projects/` `people/` thì KHÁC — chúng là kho của chính nền**, không thuộc vai nào; `/nap-kho` ghi thẳng vào đó. Nhưng vẫn **không tạo thư mục rỗng ở đây**: `/nap-kho` tạo ngay lúc ghi file đầu tiên. Một thư mục rỗng cũng không nói được gì hơn một dòng trong `index.md`.
 
