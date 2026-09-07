@@ -11,7 +11,7 @@
 
 Ném thư mục này vào một công cụ AI bậc 2, nhắn *"bắt đầu"*, trả lời phỏng vấn — bạn có một bộ não thứ 2 chạy được thật trong 5–10 tiếng.
 
-> **Phiên bản:** `v3.6` · 2026-09-07 — xem [CHANGELOG.md](CHANGELOG.md)
+> **Phiên bản:** `v3.7` · 2026-09-07 — xem [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -83,7 +83,7 @@ Khác biệt duy nhất: **Codex không có lệnh gạch chéo** cho 4 skill, v
 
 Không thấy gì thì bạn đang ở sai thư mục — đừng nhắn tiếp, thoát ra `cd` vào rồi mở lại.
 
-📍 **Toàn bộ lộ trình 8 việc:** [BAT-DAU-TU-DAY.md](BAT-DAU-TU-DAY.md) — tick từng ô, vừa là bản đồ vừa là bằng chứng.
+📍 **Toàn bộ lộ trình 7 việc:** [BAT-DAU-TU-DAY.md](BAT-DAU-TU-DAY.md) — tick từng ô, vừa là bản đồ vừa là bằng chứng.
 
 ---
 
@@ -144,7 +144,8 @@ START-HERE.txt               hướng dẫn 1 phút
   kiem-chung/                Việc 6 — bài test bộ não đã lưu thật chưa
   phong-van-dinh-vi/         buổi phỏng vấn định vị 7 chặng
 
-templates/                   khung 10 trang nền + index + log
+templates/                   khung 11 trang /onboard dựng + 2 trang /phong-van-dinh-vi dựng
+                             (positioning · brand-guide) + index + log
   khung-lap-lai/             khung cho people · projects · learnings
 
 reference/
