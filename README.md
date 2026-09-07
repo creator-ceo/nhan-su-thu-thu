@@ -11,7 +11,7 @@
 
 Ném thư mục này vào một công cụ AI bậc 2, nhắn *"bắt đầu"*, trả lời phỏng vấn — bạn có một bộ não thứ 2 chạy được thật trong 5–10 tiếng.
 
-> **Phiên bản:** `v3.8` · 2026-09-07 — xem [CHANGELOG.md](CHANGELOG.md)
+> **Phiên bản:** `v4.0` · 2026-09-07 — xem [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -45,13 +45,13 @@ Chưa quen `git` thì tải bản `.zip`, giải nén là dùng được ngay. �
 2. **Mở công cụ NGAY TRONG thư mục này** — xem mục dưới, đây là chỗ hay sai nhất.
 3. Nhắn: **`bắt đầu`**
 
-AI tự tạo `SecondBrain/` rồi phỏng vấn bạn từng câu.
+AI tự dựng bộ não **ngay trong thư mục này** rồi phỏng vấn bạn từng câu.
 
 ### ⚠️ Chỗ hay sai nhất — phải mở đúng thư mục
 
 `CLAUDE.md` và 4 lệnh `/onboard` `/nap-kho` `/kiem-chung` `/phong-van-dinh-vi` **chỉ được nạp khi thư mục này là gốc của phiên làm việc**. Clone về rồi vẫn ngồi ở thư mục cũ thì AI không thấy gì cả.
 
-**Dấu hiệu bạn đang sai chỗ:** nhắn *"bắt đầu"* mà AI trả lời như một AI bình thường — không hỏi ngược, không tạo thư mục `SecondBrain/`, gõ `/` không thấy 4 lệnh trên. Bộ khung không hỏng, chỉ là chưa được nạp.
+**Dấu hiệu bạn đang sai chỗ:** nhắn *"bắt đầu"* mà AI trả lời như một AI bình thường — không hỏi ngược, không tạo thư mục `wiki/`, gõ `/` không thấy 4 lệnh trên. Bộ khung không hỏng, chỉ là chưa được nạp.
 
 **Claude Code:**
 ```bash
@@ -89,10 +89,11 @@ Không thấy gì thì bạn đang ở sai thư mục — đừng nhắn tiếp,
 
 ## Bộ não của bạn trông như thế nào
 
-AI sẽ tạo ra một thư mục `SecondBrain/` ngay cạnh các file này:
+AI dựng bộ não **thẳng vào thư mục này**, cùng tầng với `CLAUDE.md` — không bọc thêm lớp thư mục nào:
 
 ```
-SecondBrain/
+nhan-su-thu-thu/          ← chính thư mục bạn vừa clone, và là chỗ mở Claude Code
+  CLAUDE.md · .claude/    ← bộ khung (có sẵn)
   raw/          nguồn gốc — bài viết cũ, transcript, ghi chép bạn thả vào
                 ⛔ AI KHÔNG BAO GIỜ được sửa thư mục này
   wiki/         11 trang AI viết ra, nối nhau bằng [[liên kết]]
@@ -114,6 +115,8 @@ Rồi ba thư mục nữa **mọc lên khi bạn nạp**, không tạo rỗng ch
 ```
 
 ⚡ **Đúng 11 trang, và thư mục `wiki/` sạch trơn ngoài chúng.** Không có file rỗng nào chờ sẵn.
+
+🔴 **Bộ não phải nằm CÙNG TẦNG với `CLAUDE.md`, đừng bọc nó vào một thư mục con.** Mọi skill — nền lẫn vai — đọc kho bằng đường dẫn trần `wiki/...`, tính từ thư mục bạn mở Claude Code. Bọc thêm một lớp là chúng tìm hụt lên một tầng, và **hụt im lặng**: `/viet-content` báo *"kho trống, không viết"* trong khi kho đầy, nằm thấp hơn một bậc. Bạn làm đúng hết mà công cụ nói chưa có gì.
 
 Cài thêm một vai — Content chẳng hạn — thì **vai đó** dựng kho của nó: `voice-profile`, `hook-library`, `models/`… Vai nào chưa cài thì trang của nó chưa tồn tại, và `index.md` nói rõ ai là chủ của nó.
 
@@ -174,10 +177,10 @@ reference/
 
 ## ⚠️ Hai điều đọc trước khi bắt đầu
 
-**1. Bộ não của bạn KHÔNG nằm trong repo này.**
-AI sẽ tạo thư mục `SecondBrain/` — thư mục đó đã được `.gitignore` chặn sẵn. Nghĩa là dữ liệu khách hàng, doanh thu, chuyện riêng của bạn **không bao giờ bị đẩy lên** khi bạn `git push`.
+**1. Bộ não của bạn nằm cùng thư mục với bộ khung, nhưng KHÔNG bị git theo dõi.**
+`.gitignore` chặn sẵn bốn thứ: `/wiki/` · `/raw/` · `/index.md` · `/log.md`. Nghĩa là dữ liệu khách hàng, doanh thu, chuyện riêng của bạn **không bao giờ bị đẩy lên** khi bạn `git push`.
 
-Đừng gỡ dòng `SecondBrain/` khỏi `.gitignore`. Một lần push nhầm là đủ, và xoá file sau đó không cứu được — lịch sử git vẫn giữ.
+Đừng gỡ bốn dòng đó. Một lần push nhầm là đủ, và xoá file sau đó không cứu được — lịch sử git vẫn giữ. *(Dấu `/` đứng đầu mỗi dòng là cố ý — nó neo ở gốc, để `index.md` không chặn nhầm luôn `templates/index.md`.)*
 
 **2. Đọc `reference/luat-du-lieu-nhay-cam.md` trước khi nạp khách hàng.**
 Mất 3 phút. Bộ não này sắp chứa tên người thật và chuyện của người khác.
@@ -188,7 +191,7 @@ Mất 3 phút. Bộ não này sắp chứa tên người thật và chuyện c�
 
 Bộ khung này còn tiến hoá — xem [CHANGELOG.md](CHANGELOG.md) để biết bản mới đổi gì.
 
-Điểm mấu chốt: **`SecondBrain/` hoàn toàn tách rời khỏi file khung.** Nên cập nhật = thay cái khung, bê bộ não sang. Không bao giờ phải trộn hai thứ.
+Điểm mấu chốt: **bộ não không bị git theo dõi.** Nó nằm cùng thư mục với bộ khung nhưng `.gitignore` chặn cả bốn thứ, nên `git pull` chỉ thay file khung và không bao giờ chạm vào `wiki/` của bạn.
 
 ### Nếu bạn cài bằng `git clone`
 
@@ -197,15 +200,15 @@ cd nhan-su-thu-thu
 git pull
 ```
 
-`.gitignore` chặn `SecondBrain/`, nên `git pull` **không đụng được** vào dữ liệu của bạn dù có muốn. Nếu bạn từng sửa file khung và `git pull` báo xung đột: giữ bản của bạn hay lấy bản mới đều được — bộ não không bị ảnh hưởng.
+`.gitignore` chặn `/wiki/` `/raw/` `/index.md` `/log.md`, nên `git pull` **không đụng được** vào dữ liệu của bạn dù có muốn. Nếu bạn từng sửa file khung và `git pull` báo xung đột: giữ bản của bạn hay lấy bản mới đều được — bộ não không bị ảnh hưởng.
 
 ### Nếu bạn cài bằng file zip
 
 1. Tải bản mới → giải nén → được thư mục `nhan-su-thu-thu` **mới**
-2. Mở thư mục **cũ**, kéo nguyên thư mục **`SecondBrain`** sang thư mục **mới**
+2. Mở thư mục **cũ**, kéo **bốn thứ** sang thư mục mới: `wiki/` · `raw/` · `index.md` · `log.md`
 3. Xoá thư mục cũ, mở công cụ AI trong thư mục mới
 
-Kéo một lần là xong. Bộ não của bạn là một thư mục khép kín — không có file nào của nó nằm lẫn ngoài.
+⚠️ **Đúng bốn thứ đó, và phải đủ cả bốn.** Thiếu `log.md` là mất lịch sử bộ não lớn lên; thiếu `index.md` là mất bản đồ *ai lấp trang nào*. Ngại đếm thì dùng `git clone` — `git pull` không bao giờ phải kéo tay.
 
 ### ⛔ Đừng nhờ AI "tự đọc bản mới rồi bổ sung phần còn thiếu"
 
