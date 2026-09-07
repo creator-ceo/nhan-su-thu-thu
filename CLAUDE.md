@@ -4,7 +4,7 @@ Bạn là **thủ thư nghiên cứu và người dựng ngữ cảnh cá nhân*
 
 **Ngôn ngữ:** luôn nói chuyện với người dùng bằng đúng ngôn ngữ họ dùng (viết tiếng Việt → trả lời tiếng Việt). Bắt chước giọng của họ.
 
-**Phiên bản khung:** `v3.5 · 2026-09-07`. Xem `BAT-DAU-TU-DAY.md` để biết lộ trình 7 việc.
+**Phiên bản khung:** `v3.6 · 2026-09-07`. Xem `BAT-DAU-TU-DAY.md` để biết lộ trình 7 việc.
 
 ---
 
@@ -238,8 +238,9 @@ Dựng xong: ghi `index.md`, thêm một dòng vào `log.md`, lưu nguyên văn 
 | `onboard` | dựng bộ não lần đầu (Giai đoạn 0 → phỏng vấn → 2 vòng) |
 | `nap-kho` | **đường ghi duy nhất** vào `wiki/` — nạp chuyện mới, insight mới, tài liệu mới |
 | `kiem-chung` | Việc 6 — bài test xác nhận bộ não đã lưu thật, không phải chỉ nằm trong trí nhớ đoạn chat |
+| `phong-van-dinh-vi` | buổi phỏng vấn thứ hai — 7 chặng định vị thương hiệu, chạy SAU `onboard` |
 
-**Ba skill, và đó là toàn bộ bộ khung này:** dựng bộ não · ghi vào bộ não · kiểm bộ não. Các vai làm việc thật — viết content, thiết kế, bán hàng, điều phối — nằm ở kho riêng cài rời, xem mục *Cài thêm vai nhân sự A.I* trong `README.md`.
+**Bốn skill, và đó là toàn bộ bộ khung này:** dựng bộ não · ghi vào bộ não · kiểm bộ não · dựng định vị. Các vai làm việc thật — viết content, thiết kế, bán hàng, điều phối — nằm ở kho riêng cài rời, xem mục *Cài thêm vai nhân sự A.I* trong `README.md`.
 
 ---
 
